@@ -9,6 +9,16 @@ RStudio provides a very nice front-end IDE for R. As it continues to develop, mo
 
 You will have seen how we did this in the Lecture - now it's your turn. Make some changes to a file, add and commit them. Also, add a new script, and note the difference in the buttons in the git tab in RStudio - i.e. when do you see an A in the button vs. an M? What are the command line analogs?
 
+Since you have the data, and shells of scripts, spend some time making a mini-analysis (very mini!). Try to get this together:
+
+1. read in the data
+2. save it (in ```results```) to an rdata file
+3. plot the data
+4. run a regression between counts and depth or sst
+5. put these scripts in a controller script
+
+And use version control for it all.
+
 ## Git Diff
 How can we easily see what changed between two commits? We may see that one line indicated a big change that we want to inspect. Use the diff command on any two nodes in the graph:
 
