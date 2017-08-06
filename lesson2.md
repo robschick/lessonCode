@@ -48,7 +48,7 @@ git status
 
 Now that we've added a file to the staging area, we should see a message indicating there are changes to be committed, and it should label what the new file is. On my computer it looks like this:
 
-![](../presentations/images/gitStatus.png)
+![](images/gitStatus.png)
 
 Now that we've added it, let's run our first commit:
 
@@ -139,7 +139,7 @@ This is a very flexible command, however, and there are a few ways we can clean 
 git log --oneline --decorate --graph
 ```
 
-![](../presentations/images/gitLog.png)
+![](images/gitLog.png)
 So what all have we asked for? We've said, show us the log, but in a compact form, decorate it to have it show where the current branch (master) is pointing (HEAD), and show us the graph. Recall that git is a directed graph, where snapshots (commits) are the nodes. On the graph above we have 4 nodes, with the master branch pointing to the latest commit. We can move this pointer, but that's a topic we'll take up later.
 
 If we want to really get a good sense of what things look like at the different nodes, use the ```git show``` command.
@@ -149,7 +149,7 @@ If we want to really get a good sense of what things look like at the different 
 git show
 ```
 
-![](../presentations/images/gitShow1.png)
+![](images/gitShow1.png)
 And then one specific node:
 
 
@@ -158,14 +158,14 @@ git show 87f7030
 ```
 
 
-![](../presentations/images/gitShow2.png)
+![](images/gitShow2.png)
 
 Once we've asked for a specific node, we get a lot of useful information about the commit, including who did it, when they did it, what the message was, and what the commit contained.
 
 ## Commit Messages
 Recall what we talked about in Lecture - good commit messages are worth the effort, and will help you come back to the repo/project and understand not only what you did (use the ```diffs``` for that), but also why. If you are writing command line commit messages, it's hard to really write a thoughtful one. However, if you have an editor configured (my default is vi) then you can easily write a good one. Try it (with the knowledge that this commit is really a toy commit).You can invoke the editor by just typing ```git commit``` without any flag. Here's what I get when I type that:
 
-![](../presentations/images/vim.png)
+![](images/vim.png)
 
 Now you can type a good message with a less than 50 character Capitalized First Line, followed by detailed text that describes the why of the commit. With a declarative succinct first line, you can see at a glance what each commit is about, and then with ```git show``` you can dig in and read more.  
 
@@ -174,7 +174,7 @@ On the subject of declarative, here's a useful tip. You want the first line to c
 Here's what I get - note the top part of the figure that shows the oneline with the declarative statement..."If added, this commit will Add a Draft Histogram of the Sea Surface Temperature Data."
 
 
-![](../presentations/images/vimLog.png)
+![](images/vimLog.png)
 
 ## Git Diff
 How can we easily see what changed between two commits? We may see that one line indicated a big change that we want to inspect. Use the diff command on any two nodes in the graph:
@@ -187,7 +187,7 @@ git diff 9efbc59 48f84c5
 Note that the order matters. The code above says show me what changed as the repo moved from ```9efbc59``` to ```48f84c5``` Here's what mine looked like:
 
 
-![](../presentations/images/gitDiff.png)
+![](images/gitDiff.png)
 
 ## File Management with Git - rm and mv
 One thing that is good to remember is that you've added a file to git, then it's being tracked until you delete it. And actually even if you delete it, it gets stored in previous commits - because it _was_ in that repo at one point in time. Though the file is just a file, once it's tracked, don't be tempted to remove it via the operating system. 
@@ -227,7 +227,7 @@ git status
 
 Now we're back to a clean working directory. So we can delete with ```git```. Not that when you do this, and look at the status, it looks very different - the first one makes a change (the deletion) that hasn't been staged, where as the second (```git rm```) makes a change that has been committed and is ready to stage:
 
-![](../presentations/images/gitrm.png)
+![](images/gitrm.png)
 Basically to get a clean working directory if you go the ```rm``` route, you have to add the file to the staging area, only to then commit it. ```git rm``` just does that for you in one step. 
 
 Now is a good time to commit the deletion.
@@ -261,14 +261,14 @@ dev.off()
 
 Add and commit these changes, and then let's run the code from the command line.
 
-![](../presentations/images/plotHist.png)
+![](images/plotHist.png)
 What do you think we'll have now? How many new files? Where and what will they be?
 
 If you answered 2 files - gold star for you. There's the .pdf file in the ```results``` directory, but there's also the .Rout file in the ```src``` directory. But if you type ```git status``` what do you think you'll see? 
 
 Probably not what you expected to see, at least it wasn't what I thought we'd see. 
 
-![](../presentations/images/rout.png)
+![](images/rout.png)
 
 But here's a good thing to be aware of. We only have the repo initialized in ```src```, and not in results. At any rate, there's a chance we might create the odd pdf file here in addition to the .Rout files, so let's exclude them both. We do this with the   ```.gitignore``` file, which we have to make, and which, we have to place under version control.
 
@@ -290,4 +290,4 @@ If all goes well you'll not see anything - git will indicate that you have a cle
 ## Time for a Break
 Before we move on to replicating this in RStudio, it's probably time for a break.
 
-![](../presentations/images/Its-Time-For-a-Break.jpeg)
+![](images/Its-Time-For-a-Break.jpeg)

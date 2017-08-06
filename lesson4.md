@@ -1,13 +1,6 @@
----
-title: "Lesson 4 - Working Remotely"
-output: 
-  html_document:
-    keep_md: TRUE
----
+# Lesson 4 - Working Remotely
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+
 
 We're almost done! Phew. We've covered a lot of ground, but there's still another important lesson, and that is embracing what some people call the 4th state of git - the remote repository. There are many ways to do this, and sometimes they all seem sort of similar but different in frustrating ways, i.e. you might think you are following a work-flow that worked for you only to run into some weird unexplained git error.
 
@@ -26,7 +19,8 @@ Now when you look at the git tab in RStudio, you will see one important differen
 
 However, what if you already have a local repo that is not connected to GitHub? Sort of like we have here. First type this:
 
-```{r engine='bash', eval=FALSE}
+
+```bash
 git remote -v
 ```
 
@@ -47,13 +41,15 @@ Once you click on Create Repository, GitHub gives you this _really_ helpful page
 ![](images/repoClone.png)
 In our case, we're going to push the existing repo from the command line (note that of course your url will be different):
 
-```{r addRemote, engine='bash', eval=FALSE}
+
+```bash
 git remote add origin https://github.com/robschick/src.git
 ```
 
 Once we've added it, let's look again to see if we are talking to github:
 
-```{r checkRemote, engine='bash', eval=FALSE}
+
+```bash
 git remote -v
 ```
 
@@ -63,7 +59,8 @@ I see this now:
 
 
 With it added, then let's push our changes
-```{r checkRemote2, engine='bash', eval=FALSE}
+
+```bash
 git push -u origin master
 ```
 
@@ -79,13 +76,15 @@ I know I used the right password, but it's failing. Well, you'll note in my enum
 
 I change it to ssh at the command line:
 
-```{r, engine='bash', eval = FALSE}
+
+```bash
 git remote set-url origin git@github.com:robschick/src.git
 ```
 
 You can verify that it is right with 
 
-```{r, engine='bash', eval = FALSE}
+
+```bash
 git remote -v
 ```
 
@@ -130,7 +129,8 @@ And what I have locally:
 
 Ok, let's give it a whirl:
 
-```{r engine='bash', eval=FALSE}
+
+```bash
 git push origin master
 ```
 
@@ -138,7 +138,8 @@ git push origin master
 
 Sad times, but we can fix the problem. First, let's pull.
 
-```{r engine='bash', eval=FALSE}
+
+```bash
 git pull origin master
 ```
 
@@ -151,7 +152,8 @@ Now we have to fix them manually, which we do in a text editor
 
 Once it's resolved, then we go through the regular cycle again:
 
-```{r engine='bash', eval=FALSE}
+
+```bash
 rob@rob-Precision-5510:~/Documents/business/2017_ESA/demorepo/src$ vi readData.R 
 rob@rob-Precision-5510:~/Documents/business/2017_ESA/demorepo/src$ git add readData.R 
 rob@rob-Precision-5510:~/Documents/business/2017_ESA/demorepo/src$ git commit -m "Resolve Merge Conflict with GitHub Code"

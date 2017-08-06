@@ -1,13 +1,6 @@
----
-title: "Lesson 3 - Git in RStudio & Time Travel"
-output: 
-  html_document:
-    keep_md: TRUE
----
+# Lesson 3 - Git in RStudio & Time Travel
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+
 
 The learning objectives here are 1) to work through the code/add/commit cycle in RStudio, and 2) to get a feel for how you can move around the repository. This is pretty mind-bendy to me at times, but if you go back to the core idea of git storing a series of snapshots as nodes along a graph, you'll be able to wrap your head around the idea of revisiting any of those nodes at any time.
 
@@ -19,7 +12,8 @@ You will have seen how we did this in the Lecture - now it's your turn. Make som
 ## Git Diff
 How can we easily see what changed between two commits? We may see that one line indicated a big change that we want to inspect. Use the diff command on any two nodes in the graph:
 
-```{r diff, engine='bash', eval = FALSE}
+
+```bash
 git diff 9efbc59 48f84c5
 ```
 
@@ -48,7 +42,8 @@ Now that we have a few commits built up, we can go back to a particular commit a
 
 Yours will be different from mine, but to go to that node, we use the ```checkout``` command:
 
-```{r checkout, engine='bash', eval=FALSE}
+
+```bash
 git checkout 0a215c7
 ```
 
@@ -64,7 +59,8 @@ Two thoughts here:
 
 2. Type ```git log --oneline --decorate``` here to see what you get. You'll probably see a shortened history, because we've moved the pointer back to this particular commit, and commits know their parent commit - so the later ones aren't listed. This may give you great pause because you don't see work you've already done. There's yet another command to help you.
 
-```{r gitreflog, engine='bash', eval=FALSE}
+
+```bash
 git reflog
 ```
 
@@ -75,7 +71,8 @@ This can be really useful as you progress and get into more complicated things w
 
 To get back to the last commit:
 
-```{r engine='bash', eval=FALSE}
+
+```bash
 git checkout master
 ```
 
