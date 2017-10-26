@@ -9,71 +9,6 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-In the previous lesson we added a file. Now let's perform our first commit:
-
-```{r firstCommit, engine = 'bash', eval = FALSE}
-git commit -m "First Check-in of readData.R script"
-```
-
-Now we get some more information back from git about this commit, including the all-important sha-1 identifier. Here you only see the abbreviated sha-1, but if you type ```git log``` you'll see the full sha-1:
-
-```{r firstLog, engine = 'bash', eval = FALSE}
-git log
-```
-
-Along with who made the commit (hopefully you), the date, and the commit message. Now let's do some comparison between git and the file system. Right now we have several R scripts in the directory. What do you think you'll get when you type these commands? 
-
-Think what the answer will be before you issue the command.
-
-```{r firstls-files, engine = 'bash', eval = FALSE}
-ls
-git ls-files
-```
-
-Why the difference? What do you think you'll see if you ask for the status? Think before you issue the command:
-
-```{r engine = 'bash', eval = FALSE}
-git status
-```
-
-If you have untracked files, why is it that git knows about them?
-
-## Going through the Cycle Again
-Let's edit the file now to actually read in the data. You can do this in vi, or in the text editor of your choice. 
-
-Here's what I added to mine (recall the tip to put at least a barebones comment at the start of the script):
-
-```{r, eval=FALSE}
-#' This script will read in raw data from the Bahamas Marine Mammal Research Organization
-#' into a data frame called whales. whales will serve as the intermediate data for
-#' subsequent analysis
-whales <- read.csv(file = '../data/bbmroData.csv')
-head(whales)
-```
-
-Now we have some new code, i.e. the file has been modified. So go back to the command prompt, and type:
-
-```{r status, engine='bash', eval=FALSE}
-git status
-```
-
-What do you see, and why is it different from whatn you issued git status a few lines back? What do you do next if you want to make a snapshot (commit) of the updated file? Add it and commit it, but this time we can do what is called an express commit. Because git already knows about ```readData.R``` we can combine the add and the commit steps:
-
-```{r engine='bash', eval = FALSE}
-git commit -am "Add Code to Ingest the Raw Data"
-```
-
-But, this can only be done for files that have already been added.
-
-Let's go ahead and add all of the remaining untracked files and commit them:
-
-```{r, commitAll, engine='bash', eval = FALSE}
-git add .
-git commit -m "Add Remaining Blank R Files"
-git status
-```
-
-Your last command should indicate that you have a clean repo. Cool!
 
 ## Git Log
 Now that we've made a few commits, we can start to look at how our project is evolving. Git log is a good way to do this; we've seen this before, but now we'll see a bit more
@@ -91,32 +26,15 @@ git log --oneline --decorate --graph
 ![](images/gitLog.png)
 So what all have we asked for? We've said, show us the log, but in a compact form, decorate it to have it show where the current branch (master) is pointing (HEAD), and show us the graph. Recall that git is a directed graph, where snapshots (commits) are the nodes. On the graph above we have 4 nodes, with the master branch pointing to the latest commit. We can move this pointer, but that's a topic we'll take up later.
 
-If we want to really get a good sense of what things look like at the different nodes, use the ```git show``` command.
-
-```{r show, engine='bash', eval = FALSE}
-git show
-```
-
-![](images/gitShow1.png)
-And then one specific node:
-
-```{r show2, engine='bash', eval = FALSE}
-git show 87f7030
-```
-
-
-![](images/gitShow2.png)
-
-Once we've asked for a specific node, we get a lot of useful information about the commit, including who did it, when they did it, what the message was, and what the commit contained.
 
 ## Commit Messages
-Recall what we talked about in Lecture - good commit messages are worth the effort, and will help you come back to the repo/project and understand not only what you did (use the ```diffs``` for that), but also why. If you are writing command line commit messages, it's hard to really write a thoughtful one. However, if you have an editor configured (my default is vi) then you can easily write a good one. Try it (with the knowledge that this commit is really a toy commit).You can invoke the editor by just typing ```git commit``` without any flag. Here's what I get when I type that:
+Recall what we talked about in Lecture - good commit messages are worth the effort, and will help you come back to the repo/project and understand not only what you did (use the ```diffs``` for that), but also why. If you are writing command line commit messages, it's hard to really write a thoughtful one. However, if you have an editor configured (my default is vi) then you can easily write a good message. Try it (with the knowledge that this commit is really a toy commit).You can invoke the editor by just typing ```git commit``` without any flag. Here's what I get when I type that:
 
 ![](images/vim.png)
 
 Now you can type a good message with a less than 50 character Capitalized First Line, followed by detailed text that describes the why of the commit. With a declarative succinct first line, you can see at a glance what each commit is about, and then with ```git show``` you can dig in and read more.  
 
-On the subject of declarative, here's a useful tip. You want the first line to complete this sentence = 'If added, this commit will ....'
+On the subject of declarative, here's a **useful tip**. You want the first line to complete this sentence = 'If added, this commit will ....'
 
 Here's what I get - note the top part of the figure that shows the oneline with the declarative statement..."If added, this commit will Add a Draft Histogram of the Sea Surface Temperature Data."
 
@@ -124,7 +42,9 @@ Here's what I get - note the top part of the figure that shows the oneline with 
 ![](images/vimLog.png)
 
 ## Git Diff
-How can we easily see what changed between two commits? We may see that one line indicated a big change that we want to inspect. Use the diff command on any two nodes in the graph:
+How can we see what changed between two commits? 
+
+We may see that one line indicated a big change that we want to inspect. Use the ```git diff``` command on any two nodes--that is, commits--in the graph:
 
 ```{r diff, engine='bash', eval = FALSE}
 git diff 9efbc59 48f84c5
