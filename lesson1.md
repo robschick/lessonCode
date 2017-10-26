@@ -1,8 +1,7 @@
 # Lesson1
 
 
-
-## Setting up  Reproducible Workflow
+## Part 1--Setting up a Reproducible Structure
 Start by navigating to a folder that will serve as the host of the main repository, e.g. ```/rob/research/projects```
 
 Once there, replicate this folder structure. 
@@ -32,8 +31,12 @@ touch requirements.txt
 
 Ok - all done - for now. Let's talk about what goes into each, and then we'll start to populate the folders a bit.
 
-## Start With Raw Data
-I've given you a raw dataset from the Bahamas Marine Mammal Research Organization. They are in csv format. Download them from box, and put them into your ```data``` folder. You can look at them with the head command. Note where you are on the command line first, otherwise you may be looking for data in all the wrong places.
+
+## Part 2--Populate The Folders
+### Start With Raw Data
+I've given you a raw dataset from the Bahamas Marine Mammal Research Organization. They are in csv format. Download them from box, and put them into your ```data``` folder. 
+
+If you want You can look at them with the ```head``` command. Note where you are on the command line first, otherwise you may be looking for data in all the wrong places.
 
 
 ```bash
@@ -66,5 +69,7 @@ touch runAll.R
 
 
 That will make the files, but they're going to be empty just now.
+
+Ok - that's it.
 
 
