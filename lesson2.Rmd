@@ -85,7 +85,7 @@ If you have untracked files, why is it that git knows about them?
 ## Going through the Cycle Again
 Let's edit the file now to actually read in the data. You can do this in vi, or in the text editor of your choice. 
 
-Here's what I added to mine (recall the tip to put at least a barebone comment at the start of the script):
+Here's what I added to mine (recall the tip to put at least a barebones comment at the start of the script):
 
 ```{r, eval=FALSE}
 #' This script will read in raw data from the Bahamas Marine Mammal Research Organization
