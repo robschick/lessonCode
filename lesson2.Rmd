@@ -109,7 +109,7 @@ git commit -am "Add Code to Ingest the Raw Data"
 
 But, this can only be done for files that have already been added.
 
-Let's go ahead and add all of the remaining untracked files and commit them:
+Let's go ahead and add **all** of the remaining untracked files and commit them:
 
 ```{r, commitAll, engine='bash', eval = FALSE}
 git add .
