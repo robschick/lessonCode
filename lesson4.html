@@ -166,24 +166,8 @@ $(document).ready(function () {
 
 </div>
 </div>
-<div id="part-2-practice-going-through-the-cycle-again" class="section level1">
-<h1>Part 2 – Practice Going Through The Cycle Again</h1>
-<p>So now we’ve pushed up all of the changes we have made to date locally, so they are mirrored on GitHub. One of the biggest advantages of using git, or any distributed version control system, is that you now have multiple points of failure, instead of just one, i.e. you’ve increased your <a href="https://en.wikipedia.org/wiki/Bus_factor">bus factor</a> and ths is always a good thing.</p>
-<p>When we work with a remote repo, we now add an extra stage to our local git workflow. From time to time, we need to push our local changes to the remote repository. How often you do this is a matter of personal preference. I tend to do it a lot, especially since my code is typically only being used by me. For someone like Hadley Wickham who is writing a lot of influential R code, his feeling is that pushing is essentially publishing. So each time you push, it’d better work!</p>
-<p>Go ahead and repeat the cycle in RStudio.</p>
-<p>Specifically do these next steps:</p>
-<ol style="list-style-type: decimal">
-<li>Choose one of your existing R files</li>
-<li>Add some code &amp; save the file</li>
-<li>Add these changes with <code>git add</code></li>
-<li>Commit the changes (note that since these files are already tracked, you can go the express commit: <code>git commit -am &quot;...&quot;</code>)</li>
-<li>Push the changes</li>
-<li>View them on GitHub</li>
-</ol>
-<p>One best practice is to issue the <code>git pull</code> command before you push. This just ensures that you have the most up to date code before you push, and is especially helpful when you collaborate with more people on the same codebase. The benefits of this will become apparent in the next section</p>
-</div>
-<div id="part-3-merge-conflict" class="section level1">
-<h1>Part 3 – Merge Conflict</h1>
+<div id="part-2-merge-conflict" class="section level1">
+<h1>Part 2 – Merge Conflict</h1>
 <p>The dreaded merge conflict! These can be a pain in the butt when you first encounter them, but all in all, they are pretty straightforward. As you get more advanced with git, you can configure a graphical merge tool if you want to help with this. They can be great, but for now, we’ll just handle this on the command line.</p>
 <p>What is a merge conflict? It’s essentially what happens when the repository gets out of sync. Let’s say you make a change on your local computer, and push it to github, but then you working on a node, and you make a change there - but you haven’t yet brought down the most up to date changes from GitHub. When you go to push your changes up to the node, you will get rejected, and then you have to manually resolve the conflict.</p>
 <p>We don’t have a node here, but we can mimic it well enough with a local repo and GitHub:</p>
@@ -224,6 +208,22 @@ rob@rob-Precision-5510:~/Documents/business/2017_ESA/demorepo/src$ git add readD
 rob@rob-Precision-5510:~/Documents/business/2017_ESA/demorepo/src$ git commit -m &quot;Resolve Merge Conflict with GitHub Code&quot;
 [master 2cf2829] Resolve Merge Conflict with GitHub Code
 rob@rob-Precision-5510:~/Documents/business/2017_ESA/demorepo/src$ git push origin master</code></pre>
+</div>
+<div id="part-3-practice-going-through-the-cycle-again" class="section level1">
+<h1>Part 3 – Practice Going Through The Cycle Again</h1>
+<p>So now we’ve pushed up all of the changes we have made to date locally, so they are mirrored on GitHub. One of the biggest advantages of using git, or any distributed version control system, is that you now have multiple points of failure, instead of just one, i.e. you’ve increased your <a href="https://en.wikipedia.org/wiki/Bus_factor">bus factor</a> and ths is always a good thing.</p>
+<p>When we work with a remote repo, we now add an extra stage to our local git workflow. From time to time, we need to push our local changes to the remote repository. How often you do this is a matter of personal preference. I tend to do it a lot, especially since my code is typically only being used by me. For someone like Hadley Wickham who is writing a lot of influential R code, his feeling is that pushing is essentially publishing. So each time you push, it’d better work!</p>
+<p>Go ahead and repeat the cycle in RStudio.</p>
+<p>Specifically do these next steps:</p>
+<ol style="list-style-type: decimal">
+<li>Choose one of your existing R files</li>
+<li>Add some code &amp; save the file</li>
+<li>Add these changes with <code>git add</code></li>
+<li>Commit the changes (note that since these files are already tracked, you can go the express commit: <code>git commit -am &quot;...&quot;</code>)</li>
+<li>Push the changes</li>
+<li>View them on GitHub</li>
+</ol>
+<p>One best practice is to issue the <code>git pull</code> command before you push. This just ensures that you have the most up to date code before you push, and is especially helpful when you collaborate with more people on the same codebase. The benefits of this will become apparent in the next section</p>
 </div>
 
 
