@@ -135,7 +135,7 @@ $(document).ready(function () {
 <li>in <code>plotData.R</code> load the .rdata file and create a histogram of depth</li>
 <li>in <code>summarizeData.R</code> make a table of the counts by species</li>
 <li>in <code>runRegression.R</code> set up a simple linear model between <code>counts</code> and <code>depth</code> or <code>sst</code></li>
-<li>put these scripts in a controller script, e.g. <code>source(readData.R)</code></li>
+<li>put these scripts in a controller script, e.g. <code>source(readData.R)</code>, <code>source(plotData.R)</code> etc.</li>
 </ol>
 <p>And use version control for it all.</p>
 </div>
@@ -152,7 +152,7 @@ $(document).ready(function () {
 
 </div>
 <p>When you think about working with your future self - let alone any additional collaborators - these diffs are powerful ways to see what actually changed. Couple the diffs with a good commit message, and you can quickly get oriented into how and why things change over time.</p>
-<p>Compare this to a script that you just rename, or keep saving as you alter it. You may get to a point with that script, where it’s broken and it’s hard to go back to its state when it last worked. Or you may recall having ventured down a pathway that you gave up on, only <em>now</em> you want to get back to that path to try that experiment again. With <code>git</code> this is straightforward. Without <code>git</code> it’s just about impossible.</p>
+<p>Compare using this approach this to using an R script that you just rename, or keep “saving as” each time you alter it. You may get to a point with that script, where it’s broken and it’s hard to go back to its state when it last worked. Or you may recall having ventured down a pathway that you gave up on, only <em>now</em> you want to get back to that path to try that experiment again. With <code>git</code> this is straightforward. Without <code>git</code> it’s just about impossible.</p>
 <p>One thing you can get in the habit of doing (if it works for you) is to look at the diffs before you commit. My typical workflow is something like:</p>
 <ol style="list-style-type: decimal">
 <li>write some code</li>

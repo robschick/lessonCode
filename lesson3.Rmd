@@ -27,7 +27,7 @@ Since you have the data, and shells of scripts, spend some time making a mini-an
 2. in ```plotData.R``` load the .rdata file and create a histogram of depth
 3. in ```summarizeData.R``` make a table of the counts by species
 4. in ```runRegression.R``` set up a simple linear model between ```counts``` and ```depth``` or ```sst```
-5. put these scripts in a controller script, e.g. ```source(readData.R)```
+5. put these scripts in a controller script, e.g. ```source(readData.R)```, ```source(plotData.R)``` etc.
 
 And use version control for it all.
 
@@ -46,7 +46,7 @@ Note that the order matters. The code above says show me what changed as the rep
 
 When you think about working with your future self - let alone any additional collaborators - these diffs are powerful ways to see what actually changed. Couple the diffs with a good commit message, and you can quickly get oriented into how and why things change over time. 
 
-Compare this to a script that you just rename, or keep saving as you alter it. You may get to a point with that script, where it's broken and it's hard to go back to its state when it last worked. Or you may recall having ventured down a pathway that you gave up on, only _now_ you want to get back to that path to try that experiment again. With ```git``` this is straightforward. Without ```git``` it's just about impossible.
+Compare using this approach this to using an R script that you just rename, or keep "saving as" each time you alter it. You may get to a point with that script, where it's broken and it's hard to go back to its state when it last worked. Or you may recall having ventured down a pathway that you gave up on, only _now_ you want to get back to that path to try that experiment again. With ```git``` this is straightforward. Without ```git``` it's just about impossible.
 
 One thing you can get in the habit of doing (if it works for you) is to look at the diffs before you commit. My typical workflow is something like:
 
