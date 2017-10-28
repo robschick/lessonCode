@@ -27,36 +27,6 @@ git log --oneline --decorate --graph
 So what all have we asked for? We've said, show us the log, but in a compact form, decorate it to have it show where the current branch (master) is pointing (HEAD), and show us the graph. Recall that git is a directed graph, where snapshots (commits) are the nodes. On the graph above we have 4 nodes, with the master branch pointing to the latest commit. We can move this pointer, but that's a topic we'll take up later.
 
 
-## Commit Messages
-Recall what we talked about in Lecture - good commit messages are worth the effort, and will help you come back to the repo/project and understand not only what you did (use the ```diffs``` for that), but also why. If you are writing command line commit messages, it's hard to really write a thoughtful one. However, if you have an editor configured (my default is vi) then you can easily write a good message. Try it with the knowledge that this commit is really a toy commit.But **make sure** you have your editor *configured.* If not it will default to vi, which, if you haven't used it, can be a uniquely frustrating experience.
-
-You can invoke the editor by just typing ```git commit``` without any flag. Here's what I get when I type that:
-
-![](images/vim.png)
-
-Now you can type a good message with a less than 50 character Capitalized First Line, followed by detailed text that describes the why of the commit. With a declarative succinct first line, you can see at a glance what each commit is about.  
-
-On the subject of declarative, here's a **useful tip**. When writing a commit message, you want the first line to complete this sentence = 'If added, this commit will ....'
-
-Here's what I get - note the top part of the figure that shows the oneline with the declarative statement..."If added, this commit will Add a Second Helpful Readme Line"
-
-
-![](images/vimLog.png)
-
-## Git Diff
-How can we see what changed between two commits? 
-
-We may see that one line indicated a big change that we want to inspect. Use the ```git diff``` command on any two nodes--that is, commits--in the graph:
-
-```{r diff, engine='bash', eval = FALSE}
-git diff 9efbc59 48f84c5
-```
-
-Note that the order matters. The code above says show me what changed as the repo moved from ```9efbc59``` to ```48f84c5``` Here's what mine looked like:
-
-
-![](images/gitDiff.png)
-
 ## File Management with Git - rm and mv
 One thing that is good to remember is that you've added a file to git, then it's being tracked until you delete it. And actually even if you delete it, it gets stored in previous commits - because it _was_ in that repo at one point in time. Though the file is just a file, once it's tracked, don't be tempted to remove it via the operating system. 
 
