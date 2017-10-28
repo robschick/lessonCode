@@ -1,0 +1,186 @@
+DatasetID,ID,latitude,longitude,CommonName,SpeciesName,TSN,Count,DateTime,UploadDate,ResearchOrganization,Contact,Depth,SST
+328,328_45,25.906517,-77.291067,Blainville's beaked whale,Mesoplodon densirostris,180517,7,2000/08/14 16:26:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,286,28.8
+328,328_37,25.9524,-77.362217,Blainville's beaked whale,Mesoplodon densirostris,180517,1,2000/07/11 18:08:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,112,28.05
+328,328_36,25.966233,-77.360517,Dwarf sperm whale,Kogia sima,180492,3,2000/07/11 17:57:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,253,28.05
+328,328_34,25.9706,-77.378633,Dwarf sperm whale,Kogia sima,180492,5,2000/07/11 17:36:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,187,28.05
+328,328_57,25.91215,-77.34315,Unknown small cetacean,Cetacea,180403,1,2001/01/17 10:11:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,646,28.05
+328,328_52,25.904867,-77.29045,Mesoplodon sp.,Mesoplodon,180506,4,2000/11/18 12:03:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,286,28.8
+328,328_64,25.896683,-77.26475,Dwarf sperm whale,Kogia sima,180492,2,2001/02/23 15:54:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,299,25.125
+328,328_62,25.99015,-77.417017,Unknown delphinid,Delphinidae,180415,3,2001/02/23 13:14:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,446,25.725
+328,328_74,25.991533,-77.4171,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,2,2001/06/24 13:17:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,446,25.725
+328,328_93,25.96335,-77.400883,Blainville's beaked whale,Mesoplodon densirostris,180517,5,2002/02/02 11:04:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,285,26.55
+328,328_105,25.9935,-77.4199,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,3,2002/06/04 08:20:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,40,26.475
+328,328_149,25.975,-77.413,Dwarf sperm whale,Kogia sima,180492,9,2004/05/26 19:10:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,660,27.225
+328,328_145,25.902367,-77.276033,Atlantic spotted dolphin,Stenella frontalis,552460,1,2004/03/12 15:59:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,28,26.325
+328,328_164,25.951133,-77.360183,Dwarf sperm whale,Kogia sima,180492,5,2005/02/16 10:23:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,112,27.3
+328,328_174,25.9382,-77.399617,Dwarf sperm whale,Kogia sima,180492,3,2005/06/25 10:26:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,859,26.85
+328,328_183,25.885717,-77.28825,Unknown medium cetacean,Cetacea,180403,1,2005/08/07 11:32:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,308,27.375
+328,328_14,26.623783,-77.161567,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,2,1998/10/22 12:13:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,1,28.35
+328,328_12,26.632417,-77.173267,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,2,1998/10/04 15:25:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,NA,25.5
+328,328_29,25.972767,-77.3761,Dwarf sperm whale,Kogia sima,180492,1,2000/07/08 16:50:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,187,29.1
+328,328_25,25.903867,-77.363317,Cuvier's beaked whale,Ziphius cavirostris,180498,2,2000/05/13 16:27:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,133,26.475
+328,328_24,25.916667,-77.37145,Dwarf sperm whale,Kogia sima,180492,4,2000/05/13 16:20:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,841,26.475
+328,328_22,26.626117,-77.107583,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,2,1999/10/18 12:34:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,1,28.05
+328,328_78,25.97475,-77.381717,Atlantic spotted dolphin,Stenella frontalis,552460,10,2001/09/06 17:15:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,187,25.35
+328,328_100,25.9718,-77.391083,Pygmy sperm whale,Kogia breviceps,180491,1,2002/02/26 16:58:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,187,26.475
+328,328_118,25.91375,-77.320467,Dwarf sperm whale,Kogia sima,180492,1,2002/08/12 12:48:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,381,26.475
+328,328_119,25.879467,-77.261317,Blainville's beaked whale,Mesoplodon densirostris,180517,4,2002/08/12 13:43:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,274,26.475
+328,328_146,25.899733,-77.274183,Blainville's beaked whale,Mesoplodon densirostris,180517,5,2004/03/12 16:02:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,29,26.325
+328,328_165,25.9489,-77.352333,Blainville's beaked whale,Mesoplodon densirostris,180517,4,2005/02/16 11:13:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,278,27.3
+328,328_155,25.9137,-77.374317,Sperm whale,Physeter macrocephalus,180488,7,2004/07/14 16:41:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,84,26.325
+328,328_33,25.906483,-77.284383,Dwarf sperm whale,Kogia sima,180492,2,2000/07/09 08:36:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,286,28.8
+328,328_122,25.987033,-77.2942,Dwarf sperm whale,Kogia sima,180492,1,2002/10/20 13:35:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,1,NA
+328,328_150,25.97497,-77.4129,Blainville's beaked whale,Mesoplodon densirostris,180517,2,2004/05/26 19:10:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,660,27.225
+328,328_143,25.95595,-77.420267,Pygmy sperm whale,Kogia breviceps,180491,1,2004/01/14 11:30:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,10,26.475
+328,328_156,25.959433,-77.418683,Blainville's beaked whale,Mesoplodon densirostris,180517,2,2004/07/22 09:55:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,660,26.475
+328,328_178,25.900333,-77.3337,Killer whale,Orcinus orca,180469,4,2005/07/27 10:42:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,74,26.7
+328,328_46,25.901733,-77.276717,Blainville's beaked whale,Mesoplodon densirostris,180517,7,2000/08/14 17:10:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,286,28.8
+328,328_4,26.429867,-76.987167,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,1,1997/08/27 09:08:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,5,26.85
+328,328_10,26.60225,-77.133017,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,2,1998/09/21 12:46:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,1,28.35
+328,328_58,25.903683,-77.278533,Dwarf sperm whale,Kogia sima,180492,1,2001/01/24 15:25:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,286,25.125
+328,328_79,25.885283,-77.280967,Blainville's beaked whale,Mesoplodon densirostris,180517,7,2001/09/28 17:51:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,308,25.125
+328,328_102,25.9807,-77.4228,Dwarf sperm whale,Kogia sima,180492,1,2002/03/10 09:59:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,446,26.475
+328,328_112,25.8884,-77.273617,Blainville's beaked whale,Mesoplodon densirostris,180517,5,2002/08/05 16:35:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,274,26.475
+328,328_124,25.99205,-77.4194,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,20,2003/02/02 15:36:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,40,26.925
+328,328_138,25.977483,-77.410233,Dwarf sperm whale,Kogia sima,180492,2,2003/10/13 10:46:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,446,26.925
+328,328_132,25.980217,-77.4206,Atlantic spotted dolphin,Stenella frontalis,552460,4,2003/06/25 10:34:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,446,26.925
+328,328_154,25.944383,-77.386,Unknown large cetacean,Cetacea,180403,1,2004/07/14 16:19:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,NA,26.55
+328,328_158,25.961783,-77.418517,Blainville's beaked whale,Mesoplodon densirostris,180517,1,2004/07/22 12:02:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,660,26.475
+328,328_172,25.993883,-77.413467,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,17,2005/06/24 14:50:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,40,28.35
+328,328_181,25.973483,-77.405667,Blainville's beaked whale,Mesoplodon densirostris,180517,5,2005/08/06 10:41:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,285,28.35
+328,328_7,26.539433,-77.043683,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,5,1997/08/27 11:54:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,1,NA
+328,328_17,26.448983,-77.033667,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,2,1998/10/31 08:39:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,1,26.7
+328,328_11,26.453733,-77.022233,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,1,1998/09/29 09:38:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,1,26.7
+328,328_23,26.569017,-77.05255,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,2,1999/10/22 09:57:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,1,28.275
+328,328_53,25.897233,-77.315983,Dwarf sperm whale,Kogia sima,180492,2,2000/11/18 13:19:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,557,27.525
+328,328_86,25.973667,-77.410283,Blainville's beaked whale,Mesoplodon densirostris,180517,2,2001/10/26 08:33:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,660,25.725
+328,328_106,25.943967,-77.35095,Blainville's beaked whale,Mesoplodon densirostris,180517,2,2002/06/06 10:25:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,27,26.4
+328,328_97,25.987467,-77.455,Blainville's beaked whale,Mesoplodon densirostris,180517,5,2002/02/03 10:12:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,662,26.55
+328,328_167,26.42335,-77.012767,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,19,2005/03/03 10:19:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,NA,27.6
+328,328_184,25.902683,-77.284183,Unknown beaked whale species,Ziphiidae,180493,1,2005/08/07 11:47:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,286,27.375
+328,328_16,26.573233,-77.038067,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,2,1998/10/29 09:34:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,1,27.975
+328,328_76,25.929617,-77.380333,Pan-tropical spotted dolphin,Stenella attenuata,180430,30,2001/07/07 14:45:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,455,25.575
+328,328_94,25.8677,-77.302283,Dwarf sperm whale,Kogia sima,180492,5,2002/02/02 14:08:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,79,26.475
+328,328_101,25.993483,-77.413717,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,11,2002/03/10 09:45:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,40,26.475
+328,328_121,25.91585,-77.288317,Dwarf sperm whale,Kogia sima,180492,2,2002/10/20 13:18:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,138,25.95
+328,328_147,25.96578,-77.4368,Sperm whale,Physeter macrocephalus,180488,1,2004/05/26 18:10:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,96,26.25
+328,328_9,26.630917,-77.082567,Atlantic spotted dolphin,Stenella frontalis,552460,20,1998/09/20 08:29:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,1,28.875
+328,328_5,26.4663,-77.01075,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,1,1997/08/27 09:26:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,6,27
+328,328_20,26.588867,-77.106083,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,2,1999/09/11 11:03:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,1,28.05
+328,328_19,26.5826,-77.086433,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,2,1999/09/09 11:57:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,1,26.775
+328,328_26,25.887033,-77.355233,Pan-tropical spotted dolphin,Stenella attenuata,180430,9,2000/05/13 18:33:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,130,26.475
+328,328_35,25.968183,-77.361933,Dwarf sperm whale,Kogia sima,180492,1,2000/07/11 17:49:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,253,28.05
+328,328_67,25.854733,-77.2662,Short-finned pilot whale,Globicephala macrorhynchus,180466,3,2001/03/08 13:35:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,39,25.5
+328,328_60,26.565717,-76.86305,Risso's dolphin,Grampus griseus,180457,8,2001/02/15 16:10:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,52,26.625
+328,328_85,25.975833,-77.401117,Unknown Kogia species,Kogia,180490,2,2001/10/25 12:44:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,361,25.725
+328,328_99,25.921467,-77.354167,Cuvier's beaked whale,Ziphius cavirostris,180498,2,2002/02/03 12:03:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,646,26.625
+328,328_128,25.939333,-77.363717,Blainville's beaked whale,Mesoplodon densirostris,180517,2,2003/06/09 17:07:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,309,26.4
+328,328_123,25.87675,-77.2773,Dwarf sperm whale,Kogia sima,180492,3,2003/01/21 10:52:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,308,26.1
+328,328_135,25.985483,-77.4425,Blainville's beaked whale,Mesoplodon densirostris,180517,7,2003/09/10 19:05:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,662,26.925
+328,328_144,25.88125,-77.26955,Blainville's beaked whale,Mesoplodon densirostris,180517,5,2004/02/02 14:42:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,274,26.475
+328,328_170,25.958867,-77.399033,Sperm whale,Physeter macrocephalus,180488,5,2005/06/16 14:51:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,285,26.85
+328,328_171,25.958867,-77.399033,Sperm whale,Physeter macrocephalus,180488,5,2005/06/16 14:51:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,285,26.85
+328,328_55,25.9792,-77.453083,Sperm whale,Physeter macrocephalus,180488,5,2001/01/17 09:07:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,662,25.875
+328,328_3,26.641917,-77.1623,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,1,1997/08/25 11:19:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,6,26.4
+328,328_6,26.464117,-77.011583,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,3,1997/08/27 09:34:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,6,27
+328,328_49,25.901333,-77.269333,Blainville's beaked whale,Mesoplodon densirostris,180517,7,2000/08/15 10:58:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,299,28.8
+328,328_70,25.925417,-77.3311,Dwarf sperm whale,Kogia sima,180492,3,2001/04/05 10:37:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,358,25.8
+328,328_83,25.903683,-77.306767,Blainville's beaked whale,Mesoplodon densirostris,180517,1,2001/10/07 15:19:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,374,25.8
+328,328_108,25.972833,-77.372983,Blainville's beaked whale,Mesoplodon densirostris,180517,5,2002/06/07 09:02:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,25,26.55
+328,328_176,25.877017,-77.285483,Pygmy sperm whale,Kogia breviceps,180491,2,2005/06/25 12:48:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,308,27
+328,328_168,26.415633,-77.011267,Atlantic bottlenose dolphin - offshore type,Tursiops truncatus,180426,1,2005/03/03 10:19:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,NA,27.6
+328,328_182,25.962367,-77.391467,Blainville's beaked whale,Mesoplodon densirostris,180517,7,2005/08/06 12:37:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,187,26.85
+328,328_180,25.924017,-77.349983,Dwarf sperm whale,Kogia sima,180492,3,2005/08/03 12:58:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,646,26.65
+328,328_179,25.934683,-77.377117,Unknown beaked whale species,Ziphiidae,180493,1,2005/08/01 18:40:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,455,27.3
+328,328_40,25.929617,-77.338767,Blainville's beaked whale,Mesoplodon densirostris,180517,7,2000/08/09 13:09:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,358,29.175
+328,328_38,25.931583,-77.374433,Dwarf sperm whale,Kogia sima,180492,1,2000/08/09 12:17:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,309,28.05
+328,328_82,25.9431,-77.355333,Blainville's beaked whale,Mesoplodon densirostris,180517,3,2001/10/07 14:21:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,278,25.575
+328,328_72,25.979133,-77.406467,Atlantic spotted dolphin,Stenella frontalis,552460,5,2001/05/29 08:16:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,361,25.725
+328,328_104,25.917017,-77.349683,Cuvier's beaked whale,Ziphius cavirostris,180498,3,2002/03/15 10:50:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,646,26.625
+328,328_117,25.93845,-77.32195,Atlantic spotted dolphin,Stenella frontalis,552460,1,2002/08/12 12:22:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,54,26.625
+328,328_127,26.6211,-77.064633,Atlantic bottlenose dolphin - offshore type,Tursiops truncatus,180426,1,2003/03/03 10:50:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,1,28.875
+328,328_131,26.56415,-77.10005,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,2,2003/06/24 17:18:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,NA,29.475
+328,328_103,25.928017,-77.351633,Sperm whale,Physeter macrocephalus,180488,1,2002/03/14 11:26:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,306,26.4
+328,328_68,25.927933,-77.376483,Sperm whale,Physeter macrocephalus,180488,8,2001/03/24 13:19:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,455,25.575
+328,328_80,25.890283,-77.265767,Atlantic spotted dolphin,Stenella frontalis,552460,14,2001/10/06 15:33:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,274,27.675
+328,328_98,25.93845,-77.36955,Cuvier's beaked whale,Ziphius cavirostris,180498,2,2002/02/03 10:15:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,309,26.4
+328,328_95,25.992733,-77.410867,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,1,2002/02/03 09:23:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,40,26.475
+328,328_111,25.8894,-77.268767,Blainville's beaked whale,Mesoplodon densirostris,180517,1,2002/08/05 16:34:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,274,25.95
+328,328_110,25.882233,-77.278383,Dwarf sperm whale,Kogia sima,180492,1,2002/06/07 12:30:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,308,26.475
+328,328_153,25.895883,-77.276283,Blainville's beaked whale,Mesoplodon densirostris,180517,1,2004/06/13 11:52:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,286,26.325
+328,328_163,25.946483,-77.40315,Unknown Kogia species,Kogia,180490,1,2005/02/09 14:55:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,39,26.85
+328,328_87,25.895133,-77.3814,Risso's dolphin,Grampus griseus,180457,20,2002/01/11 12:35:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,14,26.625
+328,328_137,25.982867,-77.436867,Dwarf sperm whale,Kogia sima,180492,1,2003/09/12 19:11:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,509,26.925
+328,328_130,25.9622,-77.376917,Sperm whale,Physeter macrocephalus,180488,5,2003/06/22 10:00:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,187,26.925
+328,328_109,25.893867,-77.374317,Sperm whale,Physeter macrocephalus,180488,8,2002/06/07 10:05:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,13,26.625
+328,328_129,25.91495,-77.3318,Sperm whale,Physeter macrocephalus,180488,3,2003/06/10 17:33:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,494,27
+328,328_63,25.9057,-77.328533,Sperm whale,Physeter macrocephalus,180488,6,2001/02/23 14:34:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,745,25.8
+328,328_54,25.94545,-77.372233,Sperm whale,Physeter macrocephalus,180488,4,2000/11/18 13:50:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,112,28.05
+328,328_91,25.947883,-77.413133,Sperm whale,Physeter macrocephalus,180488,7,2002/01/20 14:57:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,10,26.55
+328,328_1,26.577683,-77.043167,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,1,1997/08/13 13:31:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,6,26.55
+328,328_21,26.58915,-77.139333,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,1,1999/10/01 08:20:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,,28.05
+328,328_18,26.608217,-77.099317,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,2,1999/09/09 11:29:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,1,28.05
+328,328_27,26.548067,-77.02805,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,1,2000/06/19 11:08:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,1,26.55
+328,328_42,25.943667,-77.347417,Dwarf sperm whale,Kogia sima,180492,5,2000/08/10 11:09:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,278,28.05
+328,328_41,25.933317,-77.348683,Atlantic spotted dolphin,Stenella frontalis,552460,30,2000/08/10 10:50:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,306,28.05
+328,328_47,25.971283,-77.436467,Dwarf sperm whale,Kogia sima,180492,5,2000/08/15 09:43:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,965,26.475
+328,328_115,25.931733,-77.349783,Dwarf sperm whale,Kogia sima,180492,5,2002/08/12 11:32:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,306,26.475
+328,328_120,25.996117,-77.414133,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,27,2002/08/25 12:25:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,40,26.475
+328,328_142,25.993167,-77.412233,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,8,2004/01/14 11:09:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,40,27.225
+328,328_136,25.9459,-77.44085,Mesoplodon sp.,Mesoplodon,180506,1,2003/09/12 18:50:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,146,26.625
+328,328_151,25.93785,-77.35485,Cuvier's beaked whale,Ziphius cavirostris,180498,2,2004/06/12 17:50:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,306,26.55
+328,328_148,25.97285,-77.439333,Unknown small cetacean,Cetacea,180403,1,2004/05/26 18:57:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,96,26.625
+328,328_159,25.97405,-77.411733,Blainville's beaked whale,Mesoplodon densirostris,180517,6,2004/07/22 13:13:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,660,27.22
+328,328_173,25.99895,-77.409267,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,15,2005/06/25 09:52:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,40,28.35
+328,328_161,25.9048,-77.33,Sperm whale,Physeter macrocephalus,180488,6,2004/07/28 13:13:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,745,26.475
+328,328_13,26.611767,-77.039017,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,7,1998/10/21 08:54:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,1,27.45
+328,328_31,25.94875,-77.367283,Dwarf sperm whale,Kogia sima,180492,2,2000/07/09 07:58:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,112,28.05
+328,328_43,25.9474,-77.341033,Dwarf sperm whale,Kogia sima,180492,1,2000/08/10 11:19:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,44,29.175
+328,328_50,25.891617,-77.274667,Pygmy sperm whale,Kogia breviceps,180491,2,2000/08/15 11:21:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,274,28.8
+328,328_66,25.903517,-77.342033,Dwarf sperm whale,Kogia sima,180492,4,2001/03/08 12:08:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,10,25.8
+328,328_61,26.62955,-76.908767,Blainville's beaked whale,Mesoplodon densirostris,180517,4,2001/02/15 17:08:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,84,26.625
+328,328_73,25.931033,-77.346217,Dwarf sperm whale,Kogia sima,180492,1,2001/05/31 17:29:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,306,25.575
+328,328_90,25.948517,-77.403267,Dwarf sperm whale,Kogia sima,180492,6,2002/01/20 14:57:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,39,26.55
+328,328_88,25.945083,-77.347183,Dwarf sperm whale,Kogia sima,180492,1,2002/01/17 15:25:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,278,26.4
+328,328_96,25.9945,-77.40625,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,1,2002/02/03 09:37:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,2,26.475
+328,328_48,25.898883,-77.284033,Pygmy sperm whale,Kogia breviceps,180491,2,2000/08/15 10:49:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,286,28.8
+328,328_75,25.86915,-77.2945,Unknown Kogia species,Kogia,180490,1,2001/06/24 14:47:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,799,25.5
+328,328_84,25.913567,-77.307933,Dwarf sperm whale,Kogia sima,180492,4,2001/10/25 11:10:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,284,25.8
+328,328_141,25.9115,-77.352667,Dwarf sperm whale,Kogia sima,180492,5,2003/10/13 15:54:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,64,27
+328,328_140,25.881117,-77.292433,Dwarf sperm whale,Kogia sima,180492,4,2003/10/13 14:29:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,597,26.1
+328,328_133,25.972167,-77.395933,Blainville's beaked whale,Mesoplodon densirostris,180517,1,2003/08/24 10:31:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,285,26.925
+328,328_185,25.929417,-77.36215,Dwarf sperm whale,Kogia sima,180492,3,2005/10/19 09:40:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,309,27.3
+328,328_8,26.589467,-77.0566,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,4,1997/08/27 13:02:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,1,27.226
+328,328_2,26.4259,-77.016,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,1,1997/08/14 09:39:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,1,26.325
+328,328_15,26.65425,-77.142167,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,1,1998/10/29 08:22:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,1,26.325
+328,328_30,25.94195,-77.385983,Dwarf sperm whale,Kogia sima,180492,4,2000/07/09 07:48:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,NA,28.05
+328,328_39,25.93595,-77.36035,Atlantic spotted dolphin,Stenella frontalis,552460,20,2000/08/09 12:29:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,309,28.05
+328,328_65,25.903767,-77.271533,Dwarf sperm whale,Kogia sima,180492,6,2001/02/23 16:13:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,299,25.125
+328,328_139,25.93715,-77.431333,Dwarf sperm whale,Kogia sima,180492,12,2003/10/13 11:04:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,17,26.85
+328,328_166,26.420433,-77.012217,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,3,2005/03/03 09:47:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,NA,27.6
+328,328_157,25.953933,-77.410783,Blainville's beaked whale,Mesoplodon densirostris,180517,2,2004/07/22 10:24:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,1024,26.475
+328,328_32,25.905283,-77.284033,Blainville's beaked whale,Mesoplodon densirostris,180517,7,2000/07/09 08:35:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,286,28.8
+328,328_28,25.959,-77.357083,Blainville's beaked whale,Mesoplodon densirostris,180517,7,2000/07/06 10:03:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,58,28.05
+328,328_44,25.904817,-77.292,Dwarf sperm whale,Kogia sima,180492,1,2000/08/14 16:21:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,374,28.8
+328,328_56,25.967317,-77.3768,Dwarf sperm whale,Kogia sima,180492,3,2001/01/17 09:31:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,187,25.575
+328,328_69,25.9943,-77.4099,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,10,2001/03/24 15:50:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,40,25.725
+328,328_59,25.904133,-77.2761,Dwarf sperm whale,Kogia sima,180492,8,2001/02/02 14:46:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,286,25.125
+328,328_71,25.992317,-77.413567,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,14,2001/04/05 11:43:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,40,25.725
+328,328_89,25.936933,-77.349567,Dwarf sperm whale,Kogia sima,180492,7,2002/01/20 14:18:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,30,26.4
+328,328_116,25.939933,-77.35085,Atlantic spotted dolphin,Stenella frontalis,552460,1,2002/08/12 11:49:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,306,26.4
+328,328_152,25.905167,-77.293833,Blainville's beaked whale,Mesoplodon densirostris,180517,2,2004/06/13 11:24:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,374,26.325
+328,328_162,25.97095,-77.404583,Blainville's beaked whale,Mesoplodon densirostris,180517,4,2004/07/30 11:10:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,285,26.475
+328,328_160,25.899983,-77.282667,Cuvier's beaked whale,Ziphius cavirostris,180498,1,2004/07/26 09:29:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,286,26.325
+328,328_169,25.89935,-77.280783,Unknown Kogia species,Kogia,180490,1,2005/06/16 14:18:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,286,27.275
+328,328_51,25.8971,-77.295833,Blainville's beaked whale,Mesoplodon densirostris,180517,7,2000/08/19 09:38:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,374,28.8
+328,328_81,25.878733,-77.249183,Pan-tropical spotted dolphin,Stenella attenuata,180430,2,2001/10/06 15:33:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,114,25.65
+328,328_77,25.9958,-77.410517,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,30,2001/07/08 15:58:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,40,25.725
+328,328_92,25.993333,-77.418333,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,9,2002/02/02 10:42:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,40,25.725
+328,328_114,25.8988,-77.285283,Blainville's beaked whale,Mesoplodon densirostris,180517,3,2002/08/11 18:42:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,286,26.475
+328,328_113,25.9028,-77.287433,Unknown small cetacean,Cetacea,180403,2,2002/08/11 18:41:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,286,25.95
+328,328_107,25.91545,-77.340167,Dwarf sperm whale,Kogia sima,180492,4,2002/06/06 11:48:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,49,26.475
+328,328_126,26.618217,-77.070633,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,19,2003/03/03 10:50:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,1,26.475
+328,328_125,25.960833,-77.387283,Blainville's beaked whale,Mesoplodon densirostris,180517,5,2003/02/26 11:03:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,187,26.4
+328,328_134,25.925583,-77.370583,Dwarf sperm whale,Kogia sima,180492,3,2003/09/10 18:00:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,309,27
+328,328_177,25.998917,-77.408567,Atlantic bottlenose dolphin - inshore type,Tursiops truncatus,180426,19,2005/07/13 11:02:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,40,28.35
+328,328_175,25.90375,-77.324933,Dwarf sperm whale,Kogia sima,180492,4,2005/06/25 11:51:00,2006/06/06 13:20:37,Bahamas Marine Mammal Research Organisation,charlotte,557,26.7
