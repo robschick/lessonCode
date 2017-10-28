@@ -4,21 +4,27 @@
 
 The learning objectives here are 1) to work through the code/add/commit cycle in RStudio, and 2) to get a feel for how you can move around the repository. This is pretty mind-bendy to me at times, but if you go back to the core idea of git storing a series of snapshots as nodes along a graph, you'll be able to wrap your head around the idea of revisiting any of those nodes at any time.
 
+# Part 1
 ## RStudio
-RStudio provides a very nice front-end IDE for R. As it continues to develop, more and more capabilities are added. Version control with ```svn``` or ```git``` has been available for quite some time. You may have even seen the git tab in RStudio and wondered what it was doing there. I use both the command line and RStudio for my git work, so it's a good idea to have a feel for both. I prefer the command line interface for some things, but being a visual person, RStudio's git support has a lot to offer. IN particular, it's quite easy to write a good commit message, and to visually see the diffs/changes that you are making.
+RStudio provides a very nice front-end IDE for R. As it continues to develop, more and more capabilities are added. Version control with ```svn``` or ```git``` has been available for quite some time. You may have even seen the git tab in RStudio and wondered what it was doing there. I use both the command line and RStudio for my git work, so it's a good idea to have a feel for both. I prefer the command line interface for some things, but being a visual person, RStudio's git support has a lot to offer. In particular, it's quite easy to write a good commit message, and to visually see the diffs/changes that you are making.
 
-You will have seen how we did this in the Lecture - now it's your turn. Make some changes to a file, add and commit them. Also, add a new script, and note the difference in the buttons in the git tab in RStudio - i.e. when do you see an A in the button vs. an M? What are the command line analogs?
+You will have seen how we did this in the Lecture - now it's your turn. 
 
-Since you have the data, and shells of scripts, spend some time making a mini-analysis (very mini!). Try to get this together:
+The first thing we have to do is create a new (RStudio) Project within the ```src``` directory that contains your git repository. 
 
-1. read in the data
-2. save it (in ```results```) to an rdata file
-3. plot the data
-4. run a regression between counts and depth or sst
-5. put these scripts in a controller script
+Make some changes to a file, add and commit them. Also, add a new script, and note the difference in the buttons in the git tab in RStudio - i.e. when do you see an A in the button vs. an M? What are the command line analogs?
+
+Since you have the data, and shells of scripts, spend some time making a mini-analysis (very mini!). Try to get this together by using your existing blank R scripts as follows:
+
+1. in ```readData.R``` read in the data and save it (in the ```results``` folder) as an .rdata file
+2. in ```plotData.R``` load the .rdata file and create a histogram of depth
+3. in ```summarizeData.R``` make a table of the counts by species
+4. in ```runRegression.R``` set up a simple linear model between ```counts``` and ```depth``` or ```sst```
+5. put these scripts in a controller script, e.g. ```source(readData.R)```
 
 And use version control for it all.
 
+# Part 2
 ## Git Diff
 How can we easily see what changed between two commits? We may see that one line indicated a big change that we want to inspect. Use the diff command on any two nodes in the graph:
 
@@ -45,6 +51,7 @@ One thing you can get in the habit of doing (if it works for you) is to look at 
 
 Before you add and commit the changes, though, you can just type ```git diff``` to see what has been changed. With the code we've been running here, it's just toy syntax, but if you were working on a complicated function, it's often nice to see what you've done. 
 
+# Part 3
 ## Going to a Particular Snapshot
 Now that we have a few commits built up, we can go back to a particular commit and have our code (in the same file!) look exactly as it did at that commit. And we can do this without throwing away the most recent work. Take a look at your history with ```git log --oneline``` and chose a commit you want to navigate to. 
 
