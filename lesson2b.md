@@ -1,25 +1,20 @@
----
-title: "Lesson 2, Part 2"
-output: 
-  html_document:
-    keep_md: TRUE
----
+# Lesson 2, Part 2
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+
 
 
 ## Git Log
 Now that we've made a few commits, we can start to look at how our project is evolving. Git log is a good way to do this; we've seen this before, but now we'll see a bit more
 
-```{r, log, engine='bash', eval = FALSE}
+
+```bash
 git log
 ```
 
 This is a very flexible command, however, and there are a few ways we can clean it up to make the output a bit tidier:
 
-```{r prettylog, engine='bash', eval = FALSE}
+
+```bash
 git log --oneline --decorate --graph
 ```
 
@@ -32,7 +27,8 @@ One thing that is good to remember is that you've added a file to git, then it's
 
 If you want to delete a file, or if you want to change it's name, git offers utlities to do this. Not surprisingly, they are ```git rm``` and ```git mv```. Let's see them in operation. First we'll add two files - one to move/rename and one to delete. We'll do this in the ```src``` directory again.
 
-```{r gitAddII, engine='bash', eval = FALSE}
+
+```bash
 touch prediction.R
 touch simData.R
 git add .
@@ -41,13 +37,15 @@ git commit -m "Add Two Files for Experimenting with Moving and Deleting"
 
 With these setup and added, let's delete it at the command line just to see what happens:
 
-```{r removeOS, engine='bash', eval = FALSE}
+
+```bash
 rm prediction.R
 ```
 
 All looks good right from the OS point of view - right? What happens when you ask ```git``` what the status is?
 
-```{r removeStatus, engine='bash', eval = FALSE}
+
+```bash
 git status
 ```
 
@@ -57,7 +55,8 @@ What to do now? Well we have options. One thing we could do is to add the delete
 
 Or we could back out the change. We do that with the git checkout command. (**n.b.** again - look at the help from git status - it tells you a lot.)
 
-```{r git checkout, engine='bash', eval = FALSE}
+
+```bash
 git checkout -- prediction.R
 git status
 
@@ -70,14 +69,16 @@ Basically to get a clean working directory if you go the ```rm``` route, you hav
 
 Now is a good time to commit the deletion.
 
-```{r engine='bash', eval=FALSE}
+
+```bash
 git commit -m "Delete prediction.R File"
 ```
 
 
 Now that file is gone and the repo is clean, let's rename the other file - this time using git. As above, if you use git's utilities for this, you don't have to add the changes
 
-```{r engine='bash', eval=FALSE}
+
+```bash
 git mv simData.R simXYData.R
 git commit -m "Rename Simulation Script for Clarity"
 ```
@@ -88,7 +89,8 @@ One person in the responses to the survey asked about what to version control an
 
 Thankfully, there's a mechanism to handle this, and it's called the ```.gitignore``` file. All you have to do is create it, put in a few patterns to match (and thus have git ignore whatever file type satisfies the pattern), and then place the .gitignore into version control. Let's try it with a pdf file. First add the plotting device code to your ```plotData.R``` script.
 
-```{r gitignore, eval = FALSE}
+
+```r
 pdf(file = '../results/firstHistogram.pdf')
 hist(whales$SST)
 dev.off()
@@ -109,7 +111,8 @@ But here's a good thing to be aware of. We only have the repo initialized in ```
 
 To do this, make a new text file, and add these two lines:
 
-```{r engine='bash', eval=FALSE}
+
+```bash
 *.Rout
 *.pdf
 ```
