@@ -72,25 +72,7 @@ And finally we can see them on GitHub to make sure all is right.
 
 ![](images/pushGitHub.png)
 
-# Part 2 -- Practice Going Through The Cycle Again
-So now we've pushed up all of the changes we have made to date locally, so they are mirrored on GitHub. One of the biggest advantages of using git, or any distributed version control system, is that you now have multiple points of failure, instead of just one, i.e. you've increased your [bus factor](https://en.wikipedia.org/wiki/Bus_factor) and ths is always a good thing. 
-
-When we work with a remote repo, we now add an extra stage to our local git workflow. From time to time, we need to push our local changes to the remote repository. How often you do this is a matter of personal preference. I tend to do it a lot, especially since my code is typically only being used by me. For someone like Hadley Wickham who is writing a lot of influential R code, his feeling is that pushing is essentially publishing. So each time you push, it'd better work!
-
-Go ahead and repeat the cycle in RStudio. 
-
-Specifically do these next steps:
-
-1. Choose one of your existing R files
-2. Add some code & save the file
-3. Add these changes with ```git add```
-4. Commit the changes (note that since these files are already tracked, you can go the express commit: ```git commit -am "..."```)
-5. Push the changes
-6. View them on GitHub
-
-One best practice is to issue the ```git pull``` command before you push. This just ensures that you have the most up to date code before you push, and is especially helpful when you collaborate with more people on the same codebase. The benefits of this will become apparent in the next section
-
-# Part 3 -- Merge Conflict
+# Part 2 -- Merge Conflict
 The dreaded merge conflict! These can be a pain in the butt when you first encounter them, but all in all, they are pretty straightforward. As you get more advanced with git, you can configure a graphical merge tool if you want to help with this. They can be great, but for now, we'll just handle this on the command line.
 
 What is a merge conflict? It's essentially what happens when the repository gets out of sync. Let's say you make a change on your local computer, and push it to github, but then you working on a node, and you make a change there - but you haven't yet brought down the most up to date changes from GitHub. When you go to push your changes up to the node, you will get rejected, and then you have to manually resolve the conflict. 
@@ -142,3 +124,22 @@ rob@rob-Precision-5510:~/Documents/business/2017_ESA/demorepo/src$ git commit -m
 rob@rob-Precision-5510:~/Documents/business/2017_ESA/demorepo/src$ git push origin master
 ```
 
+
+
+# Part 3 -- Practice Going Through The Cycle Again
+So now we've pushed up all of the changes we have made to date locally, so they are mirrored on GitHub. One of the biggest advantages of using git, or any distributed version control system, is that you now have multiple points of failure, instead of just one, i.e. you've increased your [bus factor](https://en.wikipedia.org/wiki/Bus_factor) and ths is always a good thing. 
+
+When we work with a remote repo, we now add an extra stage to our local git workflow. From time to time, we need to push our local changes to the remote repository. How often you do this is a matter of personal preference. I tend to do it a lot, especially since my code is typically only being used by me. For someone like Hadley Wickham who is writing a lot of influential R code, his feeling is that pushing is essentially publishing. So each time you push, it'd better work!
+
+Go ahead and repeat the cycle in RStudio. 
+
+Specifically do these next steps:
+
+1. Choose one of your existing R files
+2. Add some code & save the file
+3. Add these changes with ```git add```
+4. Commit the changes (note that since these files are already tracked, you can go the express commit: ```git commit -am "..."```)
+5. Push the changes
+6. View them on GitHub
+
+One best practice is to issue the ```git pull``` command before you push. This just ensures that you have the most up to date code before you push, and is especially helpful when you collaborate with more people on the same codebase. The benefits of this will become apparent in the next section
