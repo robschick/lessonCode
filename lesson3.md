@@ -25,6 +25,8 @@ Since you have the data, and shells of scripts, spend some time making a mini-an
 
 And use version control for it all.
 
+n.b. if you are feeling lacking for coding inspiration, look in the data folder for a file called ```prepareDUMLData.R``` which has all the components of the analysis.
+
 # Part 2
 ## Git Diff
 How can we easily see what changed between two commits? We may see that one line indicated a big change that we want to inspect. Use the diff command on any two nodes in the graph:
