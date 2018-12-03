@@ -7,18 +7,8 @@ At this point we've covered a lot of ground, but there's still another important
 
 Important note here - git is huge and can be frustrating - but since it's huge and since it was developed by an uber-nerdy crowd, there are a lot of resources out there. My first thing to do if I see an error I don't understand, is to type it into ~~google~~ duckduckgo, and start browsing the answers on StackOverflow. At current count, there are ~~88,555 questions~~ [105,455 questions](https://stackoverflow.com/questions/tagged/git) tagged with ```git``` on stack overflow. Chances are, the answer is out there!
 
-At any rate, one workflow to connect a local repo to GitHub is as follows (n.b. this is done at the start):
-
-1. on github, add a new repository. I typically add an R themed .gitignore file, and a README
-2. copy its url (http or ssh - I prefer ssh) to clone it
-3. Navigate to the parent folder, clone the repo
-4. At this point you can either cd into the repo and start work, or if you want to work in RStudio, simply start a new project with the "Existing Directory" option chose the repo and the git tab will appear.
-
-You can also bypass the cloning from the command line by choosing the option to clone from a repo, but make sure all your ssh keys/ducks are in a row.
-
-Now when you look at the git tab in RStudio, you will see one important difference from before - the Push/Pull tabs are live, i.e. they are not greyed out.
-
-However, what if you already have a local repo that is not connected to GitHub? Sort of like we have here. First type this:
+## Local Repo First
+What if you already have a local repo that is not connected to GitHub? Sort of like we have here. First type this:
 
 
 ```bash
@@ -27,13 +17,13 @@ git remote -v
 
 You should see nothing! How do we connect to github then? Follow these steps:
 
-1. Go to github and make a new empty repo using the same name as the one on your computer (you can use different names, but let's keep it simple for now).
+1. Go to github and make a new _empty_ repo using the same name as the one on your computer (you can use different names, but let's keep it simple for now).
 2. Copy the url of the repo - using the ssh option
 3. Add the remote locally
 4. Verify the connections
 5. Push the changes.
 
-Let's see that:
+Let's see these steps in action:
 
 ![](images/repo.png)
 
