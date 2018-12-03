@@ -1,4 +1,9 @@
-# Lesson1
+---
+title: "Lesson1"
+output: 
+  html_document:
+    keep_md: TRUE
+---
 
 
 
@@ -33,7 +38,7 @@ Ok - all done - for now. Let's talk about what goes into each, and then we'll st
 
 ## Part 2--Populate The Folders
 ### Start With Raw Data
-I've given you a raw dataset from the Bahamas Marine Mammal Research Organization. They are in csv format. 
+I've given you three datasets from the Cape Hatteras BRS. They are in csv format. 
 
 1. Download them from box
 2. Put the file into your ```data``` folder. 
@@ -42,7 +47,7 @@ If you want, you can look at them with the ```head``` command - like above this 
 
 
 ```bash
-head bbmroData.csv --lines=2
+head 2018-11-26_2017-Cape-Hatteras-BRS-kahuna-CEE --lines=2
 ```
 
 ### Generate A Few Scripts
@@ -57,7 +62,7 @@ While we're at it, let's make three more empty files:
 
 
 ```bash
-touch summarizeData.R
+touch wrangleData.R
 touch plotData.R
 touch runRegression.R
 ```
