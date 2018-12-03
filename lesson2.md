@@ -1,7 +1,6 @@
 # Lesson 2
 
 
-
 Awesome. Now we're ready to move things along with git somewhat. At this point, we've made a structure that's consistent, and can form the basics of a reproducible workflow. We've talked about one way to manually track the changes of the whole project - namely taking the whole structure, and putting it into a folder with a date-specific name, e.g. ```20170-08-06-contents-of-myRepo```
 
 This can work, and is not a bad setup, but it requires a lot of intervention and consistency on the part of you the project organizer. One other drawback - in my mind - is that with more than one user and/or more than one computer, it's very hard to scale. Things can get complicated and out of phase/sync quickly. The solution? A modern version control system; here we'll explore ```git```
@@ -90,11 +89,16 @@ Here's what I added to mine (recall the tip to put at least a barebones comment 
 
 
 ```r
-#' This script will read in raw data from the Bahamas Marine Mammal Research Organization
-#' into a data frame called whales. whales will serve as the intermediate data for
+#' This script will read in raw data from the the Cape Hatteras BRS
+#' into 3 data frames. These will be wrangled in a 
 #' subsequent analysis
-whales <- read.csv(file = '../data/bbmroData.csv')
-head(whales)
+library(readr)
+library(dplyr)
+kahuna <- read_csv('../data/2018-11-26_2017-Cape-Hatteras-BRS-kahuna-CEE.csv')
+gm182UP <- read_csv('../data/2018-11-27_Gm182-UserPoints-Start-CEE-Locations-Kahuna.csv') %>% 
+  mutate(status = 'userPoints')
+gm182 <- read_csv('../data/2018-11-27_Gm182-Start-CEE-Locations-Kahuna.csv') %>% 
+  mutate(status = 'noUserPoints')
 ```
 
 Now we have some new code, i.e. the file has been modified. So go back to the command prompt, and type:
