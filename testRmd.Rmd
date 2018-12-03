@@ -2,7 +2,9 @@
 title: "Untitled"
 author: "Rob Schick"
 date: "December 3, 2018"
-output: html_document
+output: 
+    html_document:
+      keep_md: TRUE
 ---
 
 ```{r setup, include=FALSE}
