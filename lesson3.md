@@ -16,11 +16,12 @@ Make some changes to a file, add and commit them. Also, add a new script, and no
 
 Since you have the data, and shells of scripts, spend some time making a mini-analysis (very mini!). Try to get this together by using your existing blank R scripts as follows:
 
-1. in ```readData.R``` read in the data and save it (in the ```results``` folder) as an .rdata file
-2. in ```plotData.R``` load the .rdata file and create a histogram of depth
-3. in ```summarizeData.R``` make a table of the counts by species
-4. in ```runRegression.R``` set up a simple linear model between ```counts``` and ```depth``` or ```sst```
-5. put these scripts in a controller script, e.g. ```source(readData.R)```, ```source(plotData.R)``` etc.
+1. in ```readData.R``` read in the data and save it
+2. in ```wrangle.R``` select the start of the CEE and combine the data frames
+3. in  ```plotData.R``` make a 2D density map of the points
+4. in ```calcd2ship.R``` calculate the distance of the estimated points to the RV Kahuna
+5. in ```runRegression.R``` set up a simple mixed effects model/t-test to see if the distances differ
+6. put these scripts in a controller script, e.g. ```source(readData.R)```, ```source(plotData.R)``` etc.
 
 And use version control for it all.
 
