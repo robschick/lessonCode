@@ -63,15 +63,15 @@ head 2018-11-26_2017-Cape-Hatteras-BRS-kahuna-CEE --lines=2
 Ok, at this point we have a file structure, and raw data - nothing else. But let's keep going with a simple R script to read in the data. Make a script in the ```src``` folder and call it something clever like ```readData.R``` Try this first on the command line.
 
 ```{r makeData, engine='bash', eval=FALSE}
-touch src/readData.R
+touch src/read_data.R
 ```
 
 While we're at it, let's make three more empty files:
 
 ```{r makeEmptyScripts, engine='bash', eval=FALSE}
-touch src/wrangleData.R
-touch src/plotData.R
-touch src/runRegression.R
+touch src/wrangle_data.R
+touch src/plot_data.R
+touch src/run_analysis.R
 ```
 
 And then we'll make a controller script, since that will be useful.
