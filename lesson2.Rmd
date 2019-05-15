@@ -88,7 +88,7 @@ git status
 If you have untracked files, why is it that git knows about them?
 
 ## Going through the Cycle Again
-Let's edit the file now to actually read in the data. Do this in the text editor. 
+Let's edit the file now to actually read in the data. Do this in your text editor, e.g. Sublime, Atom, etc. 
 
 Here's what I added to mine (recall the tip to put at least a barebones comment at the start of the script):
 
