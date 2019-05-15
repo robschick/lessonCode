@@ -17,19 +17,20 @@ RStudio provides a very nice front-end IDE for R. As it continues to develop, mo
 
 You will have seen how we did this in the Lecture - now it's your turn. 
 
-The first thing we have to do is create a new (RStudio) Project within the ```src``` directory that contains your git repository. 
+The first thing we have to do is create a new (RStudio) Project within the directory that contains your git repository. For me it was ```my_repo```
 
 Make some changes to a file, add and commit them. Also, add a new script, and note the difference in the buttons in the git tab in RStudio - i.e. when do you see an A in the button vs. an M? What are the command line analogs?
 
-Since you have the data, and shells of scripts, spend some time making a mini-analysis (very mini!). Try to get this together by using your existing blank R scripts as follows:
+Since you have the data, and shells of scripts, spend some time making a mini-analysis (very mini!). We're going to use a script that I wrote for you, and I'm going to have you re-factor it to make a complete "analysis."
 
-1. in ```readData.R``` read in the data and save it (in the ```results``` folder) as an .rdata file
-2. in ```plotData.R``` load the .rdata file and create a histogram of depth
-3. in ```summarizeData.R``` make a table of the counts by species
-4. in ```runRegression.R``` set up a simple linear model between ```counts``` and ```depth``` or ```sst```
-5. put these scripts in a controller script, e.g. ```source(readData.R)```, ```source(plotData.R)``` etc.
+Start with the ```prepareDUMLData.R``` script that came with the Box link, and open it up in RStudio. Refactor the code in this script to 4 different R scripts, using the shell scripts that you already have from Lesson 1:
 
-And use version control for it all.
+1. Put reading code in ```read_data.R``` 
+2. Put wrangling code in ```wrangle_data.R``` 
+3. Put plotting code in ```plot_data.R``` 
+4. Put ```lmer()``` code in ```run_analysis.R``` 
+
+And use version control for it all as you go. Once you are finished, place all of the scripts into 1 controller file - the ```runAll.R``` file from Lesson 1.
 
 # Part 2
 ## Git Diff
