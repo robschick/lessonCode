@@ -1,0 +1,31 @@
+---
+title: "Lesson 2, Part 3"
+output: 
+  html_document:
+    keep_md: TRUE
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## ```.gitignore```
+Ok, let's get our hands dirty with a ```.gitignore``` file to see how we can have ```git``` stop paying attention to particular files. 
+We'll start at the terminal (gitbash on windows, regular terminal on Mac OSx). From in there, fire up your plotting script using your text editor:
+
+
+
+in your plotting script write code to produce a pdf file:
+pdf(file = “coolplot.pdf”)
+hist(mtcars$disp)
+dev.off()
+Run the R code: R CMD BATCH --vanilla myPlot.R  
+Type git status & type ls
+Make a .gitignore file (use the touch command)
+Add *.pdf to the contents of the .gitignore file
+Use git add & git commit on the .gitignore file
+Run ls 
+(you should see the pdf listed)
+Run git ls-files 
+(you should not see the pdf listed)
