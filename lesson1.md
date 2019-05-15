@@ -38,7 +38,17 @@ Ok - all done - for now. Let's talk about what goes into each, and then we'll st
 
 ## Part 2--Populate The Folders
 ### Start With Raw Data
-I've given you three datasets from the Cape Hatteras BRS. They are in csv format. 
+I've given you three datasets from the Cape Hatteras BRS -- all in csv format. 
+
+1. 2018-11-27_Gm182-UserPoints-Start-CEE-Locations-Kahuna.csv
+2. 2018-11-26_2017-Cape-hatteras-BRS-kahuna-cee.csv 
+3. 2018-11-27_Gm182-Start-CEE-Locations-Kahuna.csv
+
+Here's the link:
+
+https://duke.box.com/v/duml-data 
+
+You should:
 
 1. Download them from box
 2. Put the file into your ```data``` folder. 
@@ -55,23 +65,23 @@ Ok, at this point we have a file structure, and raw data - nothing else. But let
 
 
 ```bash
-touch readData.R
+touch src/readData.R
 ```
 
 While we're at it, let's make three more empty files:
 
 
 ```bash
-touch wrangleData.R
-touch plotData.R
-touch runRegression.R
+touch src/wrangleData.R
+touch src/plotData.R
+touch src/runRegression.R
 ```
 
 And then we'll make a controller script, since that will be useful.
 
 
 ```bash
-touch runAll.R
+touch src/runAll.R
 ```
 
 
