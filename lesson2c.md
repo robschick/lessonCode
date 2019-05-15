@@ -5,9 +5,7 @@ output:
     keep_md: TRUE
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+
 
 
 ## ```.gitignore```
@@ -17,7 +15,8 @@ We'll start at the terminal (gitbash on windows, regular terminal on Mac OSx). F
 
 In your text editor, add some code to your plotting script write code to produce a pdf file:
 
-```{r, eval=FALSE}
+
+```r
 pdf(file = 'coolplot.pdf')
   hist(mtcars$disp)
 dev.off()
@@ -29,7 +28,8 @@ Save the file and head back to the terminal. Now we have to check the status (of
 
 Once the repo is clean, run this R code:
 
-```{r, eval=FALSE, engine='bash'}
+
+```bash
 R CMD BATCH --vanilla src/myPlot.R
 ```
 
@@ -49,7 +49,8 @@ Ok, so ```git``` sees it and is asking you to add it. But we don't want to add i
 
 Make a .gitignore file (use the touch command)
 
-```{r, engine='bash', eval=FALSE}
+
+```bash
 touch .gitignore
 ```
 
@@ -59,7 +60,8 @@ Use your text editor and add ```*.pdf``` to the contents of the ```.gitignore```
 
 Use git add & git commit on the .gitignore file
 
-```{r, engine='bash', eval=FALSE}
+
+```bash
 git add .gitignore
 git commit -m "Add pdf Files to .gitignore"
 ```
