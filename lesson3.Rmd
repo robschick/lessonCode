@@ -32,12 +32,14 @@ Start with the ```prepareDUMLData.R``` script that came with the Box link, and o
 
 And use version control for it all as you go. Once you are finished, place all of the scripts into 1 controller file - the ```runAll.R``` file from Lesson 1.
 
+Back to the lecture.
+
 # Part 2
 ## Git Diff
 How can we easily see what changed between two commits? We may see that one line indicated a big change that we want to inspect. Use the diff command on any two nodes in the graph:
 
 ```{r diff, engine='bash', eval = FALSE}
-git diff 9efbc59 48f84c5
+git diff 04694c0 d57964e
 ```
 
 Note that the order matters. The code above says show me what changed as the repo moved from ```9efbc59``` to ```48f84c5``` Here's what mine looked like:
@@ -47,16 +49,18 @@ Note that the order matters. The code above says show me what changed as the rep
 
 When you think about working with your future self - let alone any additional collaborators - these diffs are powerful ways to see what actually changed. Couple the diffs with a good commit message, and you can quickly get oriented into how and why things change over time. 
 
-Compare using this approach this to using an R script that you just rename, or keep "saving as" each time you alter it. You may get to a point with that script, where it's broken and it's hard to go back to its state when it last worked. Or you may recall having ventured down a pathway that you gave up on, only _now_ you want to get back to that path to try that experiment again. With ```git``` this is straightforward. Without ```git``` it's just about impossible.
+Compare using this approach this to using an R script that you just rename, or keep "saving as" each time you alter it. You may get to a point with that script, where it's broken and it's ~~hard~~ impossible to go back to the state when it last worked. Or you may recall having ventured down a pathway that you gave up on, only _now_ you want to get back to that path to try that experiment again. With ```git``` this is straightforward. Without ```git``` it's just about impossible.
 
 One thing you can get in the habit of doing (if it works for you) is to look at the diffs before you commit. My typical workflow is something like:
 
 1. write some code
-2. Add it
-3. Commit it
+2. add it
+3. commit it
 4. write some more code, etc.
 
 Before you add and commit the changes, though, you can just type ```git diff``` to see what has been changed. With the code we've been running here, it's just toy syntax, but if you were working on a complicated function, it's often nice to see what you've done. 
+
+Ok, back to the lecture.
 
 # Part 3
 ## Going to a Particular Snapshot
@@ -67,27 +71,31 @@ Now that we have a few commits built up, we can go back to a particular commit a
 Yours will be different from mine, but to go to that node, we use the ```checkout``` command:
 
 ```{r checkout, engine='bash', eval=FALSE}
-git checkout 0a215c7
+git checkout 17a07c9
 ```
 
-You'll see the detached HEAD warning, and if you type ```git ls-files``` you'll see the files git was tracking at that point in time. If you look at the plot script, you'll see it at that state:
+You'll see the detached HEAD warning, and if you type ```git ls-files``` you'll see the files git was tracking at that point in time. If you look at one of these scripts, you'll its contents see it at that point in the development:
 
 ![](images/plot0a215c7.png)
 
-In my case the plot script. 
+Depending on the changes you have or have not made, this may not seem mind-expanding.
 
 Two thoughts here:
 
 1. If we wanted to recreate old figures. This is one way we could do it. Checkout an old repo, and re-issue the R code from the command line to make the file. You can also hang on to them as we mentioned in lecture via the storing of old copies of the ```results/Figures``` folder with an archival date. Just make sure you are consistent if you follow this, otherwise you may end up with an old file that has a current name, but not the current content, etc.
 
-2. Type ```git log --oneline --decorate``` here to see what you get. You'll probably see a shortened history, because we've moved the pointer back to this particular commit, and commits know their parent commit - so the later ones aren't listed. This may give you great pause because you don't see work you've already done. There's yet another command to help you.
+2. Type ```git log --oneline --decorate``` here to see what you get. You'll probably see a shortened history, because we've moved the pointer back to this particular commit, and commits know their parent commit - so the later ones aren't listed. Here's a snapshot:
+
+![](images/det_head.png)
+
+Not seeing all the new work may give you _great_ pause because you don't see work you've already done. There's yet another command to help you.
 
 ```{r gitreflog, engine='bash', eval=FALSE}
 git reflog
 ```
 
 ![](images/reflog.png)
-This command basically stores every command you issue in git. So you can see that now we're checked out on the 0a215c7 node, and even though we don't see all the other downstream commits when we type ```git log``` we can rest assured that they commits are all still there.
+This command basically stores every command you issue in git. So you can see that now we're checked out on the 17a07c9 node, and even though we don't see all the other downstream commits when we type ```git log``` at this snapshot, we can rest assured that they commits are all still there.
 
 This can be really useful as you progress and get into more complicated things with merging branches and rebasing the repository. The take home is that git tries really really hard not to lose your data.
 
@@ -99,4 +107,5 @@ git checkout master
 
 ![](images/reflogMaster.png)
 
+And that's you done this lesson!
 
