@@ -14,10 +14,15 @@ Awesome. Now we're ready to move things along with git somewhat. At this point, 
 This can work, and is not a bad setup, but it requires a lot of intervention and consistency on the part of you, the project organizer. One other drawback - in my mind - is that with more than one user and/or more than one computer, it's very hard to scale. Things can get complicated and out of phase/sync quickly. The solution? A modern version control system; here we'll explore ```git```
 
 
-```git``` was written by Linus Torvalds - the creator of Linux. 
+```git``` was written by Linus Torvalds - the creator of Linux, and supposedly [not the nicest collaborator in the world](https://arstechnica.com/gadgets/2018/09/linus-torvalds-apologizes-for-years-of-being-a-jerk-takes-time-off-to-learn-empathy/): 
 ![](images/linus-eff-you-640x363.png)
 
-It was an outflow of bitkeeper, and was built to manage the linux kernel. Undoubtedly this is a bigger project than you or I will ever work on. At present the kernel is approximately 17 million lines of code, with 2-3 thousand contributing developers. No wonder they need a robust version control system. We've talked about what ```git``` is in the lecture, and now we'll start to put it into practice. 
+
+It was an outflow of bitkeeper, and was built to manage the linux kernel. Undoubtedly this is a bigger project than you or I will ever work on. At present the kernel is approximately 17 million lines of code, with 2-3 thousand contributing developers. No wonder they need a robust version control system. 
+
+We've talked about what ```git``` is in the lecture, and now we'll start to put it into practice. 
+
+## Pay Attention Here
 
 You should be in the **folder that you made that contains the whole repository**, e.g. ```my_repo```. Type ```pwd``` just to make sure you are where you think you are. 
 
@@ -27,9 +32,9 @@ Then let's initialize the repository:
 git init
 ```
 
-If successful, all you'll get a message indicating that you have initalized am empty repository. Success!
+If successful, all you'll get a message indicating that you have initalized an empty repository. Success!
 
-Next let's look at the status:
+Next let's look at the status of the repository:
 
 ```{r gitstatus, engine = 'bash', eval = FALSE}
 git status
@@ -45,7 +50,7 @@ Right now we are in the staging area, and we should have 5 ```*.R``` files - 4 t
 
 
 ```{r add1stFile, engine = 'bash', eval = FALSE}
-git add src/readData.R
+git add src/read_data.R
 ```
 
 You should get nothing back - just the command prompt again. But if you ask for the status again, you'll see something different:
@@ -61,7 +66,7 @@ Now that we've added a file to the staging area, we should see a message indicat
 Now that we've added it, let's run our first commit:
 
 ```{r firstCommit, engine = 'bash', eval = FALSE}
-git commit -m "First Check-in of readData.R script"
+git commit -m "First Check-in of read_data.R script"
 ```
 
 Now we get some more information back from git about this commit, including the all-important sha-1 identifier. Here you only see the abbreviated sha-1, but if you type ```git log``` you'll see the full sha-1:
