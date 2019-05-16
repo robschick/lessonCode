@@ -49,7 +49,7 @@ In our case, we're going to push the existing repo *from* the command line (note
 
 
 ```bash
-git remote add origin https://github.com/robschick/src.git
+git remote add origin git@github.com:robschick/my_repo.git
 ```
 
 Once we've added it, let's look again to see if we are talking to github:
@@ -61,7 +61,7 @@ git remote -v
 
 I see this now:
 
-![](images/remote.png)
+![](images/remote2.png)
 
 
 With it added, then let's push our changes
@@ -91,7 +91,7 @@ Here's what I have on GitHub
 
 ![](images/githubMerge.png)
 
-And what I have locally:
+And what I have locally after I make a change, add it, and commit it:
 
 ![](images/localMerge.png)
 
@@ -116,17 +116,14 @@ And here we see the conflict:
 ![](images/pullMerge.png)
 Now we have to fix them manually, which we do in a text editor
 
-![](images/viMC.png)
+![](images/subl_merge_conf.png)
 
 Once it's resolved, then we go through the regular cycle again:
 
 
 ```bash
-rob@rob-Precision-5510:~/Documents/business/2017_ESA/demorepo/src$ vi readData.R 
-rob@rob-Precision-5510:~/Documents/business/2017_ESA/demorepo/src$ git add readData.R 
-rob@rob-Precision-5510:~/Documents/business/2017_ESA/demorepo/src$ git commit -m "Resolve Merge Conflict with GitHub Code"
-[master 2cf2829] Resolve Merge Conflict with GitHub Code
-rob@rob-Precision-5510:~/Documents/business/2017_ESA/demorepo/src$ git push origin master
+git commit -am "Resolve Merge Conflict"
+git push origin master
 ```
 
 
