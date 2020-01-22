@@ -9,7 +9,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Awesome. Now we're ready to move things along with git somewhat. At this point, we've made a structure that's consistent, and can form the basics of a reproducible workflow. We've talked about one way to manually track the changes of the whole project - namely taking the whole structure, and putting it into a folder with a date-specific name, e.g. ```20170-08-06-contents-of-myRepo```
+Awesome. Now we're ready to move things along with git somewhat. At this point, we've made a structure that's consistent, and can form the basics of a reproducible workflow. We've talked about one way to manually track the changes of the whole project - namely taking the whole structure, and putting it into a folder with a date-specific name, e.g. ```2017-08-06_contents-of-myRepo```
 
 This can work, and is not a bad setup, but it requires a lot of intervention and consistency on the part of you, the project organizer. One other drawback - in my mind - is that with more than one user and/or more than one computer, it's very hard to scale. Things can get complicated and out of phase/sync quickly. The solution? A modern version control system; here we'll explore ```git```
 
@@ -75,16 +75,16 @@ Now we get some more information back from git about this commit, including the 
 git log
 ```
 
-Along with who made the commit (hopefully you), the date, and the commit message. Now let's do some comparison between git and the file system. Right now we have several R scripts in the directory. What do you think you'll get when you type these commands? 
+Along with who made the commit (hopefully you!), the date, and the commit message. Now let's do some comparison between git and the file system. Right now we have several R scripts in the directory. What do you think you'll get when you type these commands? 
 
-Think what the answer will be before you issue the command.
+Think what the answer will be __before__ you issue the command.
 
 ```{r firstls-files, engine = 'bash', eval = FALSE}
 ls
 git ls-files
 ```
 
-Why the difference? What do you think you'll see if you ask for the status? Think before you issue the command:
+Why the difference? What do you think you'll see if you ask for the status? Think __before__ you issue the command:
 
 ```{r engine = 'bash', eval = FALSE}
 git status
@@ -111,13 +111,17 @@ Now we have some new code, i.e. the file has been modified. So go back to the co
 git status
 ```
 
-What do you see, and why is it different from whatn you issued git status a few lines back? What do you do next if you want to make a snapshot (commit) of the updated file? Add it and commit it, but this time we can do what is called an express commit. Because git already knows about ```readData.R``` we can combine the add and the commit steps:
+What do you see, and why is it different from what you issued git status a few lines back? 
+
+What do you do next if you want to make a snapshot (commit) of the updated file? Add it and commit it, but this time we can do what is called an express commit. Because git already knows about ```readData.R``` we can combine the add and the commit steps:
 
 ```{r engine='bash', eval = FALSE}
 git commit -am "Add Code to Ingest the Raw Data"
 ```
 
-But, this can only be done for files that have already been added.
+Notice the difference in the flag - here we use ```-am``` instead of ```-m```
+
+Note that this can only be done for files that have _already_ been added.
 
 Let's go ahead and add **all** of the remaining untracked files and commit them:
 
@@ -127,4 +131,6 @@ git commit -m "Add Remaining Blank R Files"
 git status
 ```
 
-Your last command should indicate that you have a clean repo. Cool! Back to the lectures to talk about viewing the repo.
+Your last command should indicate that you have a clean repo. Cool! 
+
+Back to the lectures to talk about viewing the repo.
