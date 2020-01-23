@@ -51,7 +51,7 @@ https://duke.box.com/v/duml-data
 You should:
 
 1. Download them from box
-2. Put the file into your ```data``` folder. 
+2. Put the data files into your ```data``` folder. 
 
 If you want, you can look at them with the ```head``` command - like above this is a unix command that you issue on the command line. Note where you are on the command line first, otherwise you may be looking for data in all the wrong places.
 
@@ -61,20 +61,20 @@ head 2018-11-26_2017-Cape-Hatteras-BRS-kahuna-CEE --lines=2
 ```
 
 ### Generate A Few Scripts
-Ok, at this point we have a file structure, and raw data - nothing else. But let's keep going with a simple R script to read in the data. Make a script in the ```src``` folder and call it something clever like ```readData.R``` Try this first on the command line.
+Ok, at this point we have a file structure, and raw data - nothing else. But let's keep going with a simple R script to read in the data. Make a script in the ```src``` folder and call it something clever like ```read_data.R``` Try this first on the command line.
 
 
 ```bash
-touch src/readData.R
+touch src/read_data.R
 ```
 
 While we're at it, let's make three more empty files:
 
 
 ```bash
-touch src/wrangleData.R
-touch src/plotData.R
-touch src/runRegression.R
+touch src/wrangle_data.R
+touch src/plot_data.R
+touch src/run_analysis.R
 ```
 
 And then we'll make a controller script, since that will be useful.

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -268,7 +268,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -330,6 +329,7 @@ summary {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -341,18 +341,6 @@ summary {
   display: none;
 }
 </style>
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
 
 <!-- code folding -->
 
@@ -411,19 +399,19 @@ touch CITATION</code></pre>
 <p>You should:</p>
 <ol style="list-style-type: decimal">
 <li>Download them from box</li>
-<li>Put the file into your <code>data</code> folder.</li>
+<li>Put the data files into your <code>data</code> folder.</li>
 </ol>
 <p>If you want, you can look at them with the <code>head</code> command - like above this is a unix command that you issue on the command line. Note where you are on the command line first, otherwise you may be looking for data in all the wrong places.</p>
 <pre class="bash"><code>head 2018-11-26_2017-Cape-Hatteras-BRS-kahuna-CEE --lines=2</code></pre>
 </div>
 <div id="generate-a-few-scripts" class="section level3">
 <h3>Generate A Few Scripts</h3>
-<p>Ok, at this point we have a file structure, and raw data - nothing else. But let’s keep going with a simple R script to read in the data. Make a script in the <code>src</code> folder and call it something clever like <code>readData.R</code> Try this first on the command line.</p>
-<pre class="bash"><code>touch src/readData.R</code></pre>
+<p>Ok, at this point we have a file structure, and raw data - nothing else. But let’s keep going with a simple R script to read in the data. Make a script in the <code>src</code> folder and call it something clever like <code>read_data.R</code> Try this first on the command line.</p>
+<pre class="bash"><code>touch src/read_data.R</code></pre>
 <p>While we’re at it, let’s make three more empty files:</p>
-<pre class="bash"><code>touch src/wrangleData.R
-touch src/plotData.R
-touch src/runRegression.R</code></pre>
+<pre class="bash"><code>touch src/wrangle_data.R
+touch src/plot_data.R
+touch src/run_analysis.R</code></pre>
 <p>And then we’ll make a controller script, since that will be useful.</p>
 <pre class="bash"><code>touch src/runAll.R</code></pre>
 <p>That will make the files, but they’re going to be empty just now.</p>
@@ -448,6 +436,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
