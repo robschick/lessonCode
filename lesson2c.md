@@ -28,12 +28,20 @@ Save the file and head back to the terminal. Now we have to check the status (of
 
 Once the repo is clean, run this R code:
 
+Windows (note that your path may change slightly based on your install and version of R; don't despair if it doesn't work - there's a workaround below):
+
+
+```bash
+/C/Program\ Files/R/R-3.6.2/bin/R.exe CMD BATCH --vanilla src/plot_data.R
+```
+
+Mac:
 
 ```bash
 R CMD BATCH --vanilla src/plot_data.R
 ```
 
-And what happens? Path dependencies...most likely only for the Windows users.
+And what happens? Path dependencies -- maybe? Most likely only for the Windows users.
 
 ![](images/path_depend.png)
   
