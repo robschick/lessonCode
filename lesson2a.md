@@ -5,9 +5,7 @@ output:
     keep_md: TRUE
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+
 
 Awesome. Now we're ready to move things along with git somewhat. At this point, we've made a structure that's consistent, and can form the basics of a reproducible workflow. We've talked about one way to manually track the changes of the whole project - namely taking the whole structure, and putting it into a folder with a date-specific name, e.g. ```2017-08-06_contents-of-myRepo```
 
@@ -28,7 +26,8 @@ You should be in the **folder that you made that contains the whole repository**
 
 Then let's initialize the repository:
 
-```{r gitInit, engine = 'bash', eval = FALSE}
+
+```bash
 git init
 ```
 
@@ -36,7 +35,8 @@ If successful, all you'll get a message indicating that you have initalized an e
 
 Next let's look at the status of the repository:
 
-```{r gitstatus, engine = 'bash', eval = FALSE}
+
+```bash
 git status
 ```
 
@@ -49,13 +49,15 @@ You will see a message about being on branch master, that you are on the initial
 Right now we are in the staging area, and we should have 5 ```*.R``` files - 4 that will do something eventually, and one that will run all the others. Let's add the first one ```read_data.R``` (or whatever you named the file to read in the data).
 
 
-```{r add1stFile, engine = 'bash', eval = FALSE}
+
+```bash
 git add src/read_data.R
 ```
 
 You should get nothing back - just the command prompt again. But if you ask for the status again, you'll see something different:
 
-```{r statusII, engine = 'bash', eval = FALSE}
+
+```bash
 git status
 ```
 
@@ -65,13 +67,15 @@ Now that we've added a file to the staging area, we should see a message indicat
 
 Now that we've added it, let's run our first commit:
 
-```{r firstCommit, engine = 'bash', eval = FALSE}
+
+```bash
 git commit -m "First Check-in of read_data.R script"
 ```
 
 Now we get some more information back from git about this commit, including the all-important sha-1 identifier. Here you only see the abbreviated sha-1, but if you type ```git log``` you'll see the full sha-1:
 
-```{r firstLog, engine = 'bash', eval = FALSE}
+
+```bash
 git log
 ```
 
@@ -79,14 +83,16 @@ Along with who made the commit (hopefully you!), the date, and the commit messag
 
 Think what the answer will be __before__ you issue the command.
 
-```{r firstls-files, engine = 'bash', eval = FALSE}
+
+```bash
 ls
 git ls-files
 ```
 
 Why the difference? What do you think you'll see if you ask for the status? Think __before__ you issue the command:
 
-```{r engine = 'bash', eval = FALSE}
+
+```bash
 git status
 ```
 
@@ -97,7 +103,8 @@ Let's edit the file now to actually read in the data. Do this in your text edito
 
 Here's what I added to mine (recall the tip to put at least a barebones comment at the start of the script):
 
-```{r, eval=FALSE}
+
+```r
 #' This script will read in raw data from the Cape Hatteras BRS
 #' into a data frame called gm182, which will serve as the intermediate data for
 #' subsequent analysis
@@ -107,7 +114,8 @@ head(gm182)
 
 Now we have some new code, i.e. the file has been modified. So go back to the command prompt, and type:
 
-```{r status, engine='bash', eval=FALSE}
+
+```bash
 git status
 ```
 
@@ -115,7 +123,8 @@ What do you see, and why is it different from what you issued git status a few l
 
 What do you do next if you want to make a snapshot (commit) of the updated file? Add it and commit it, but this time we can do what is called an express commit. Because git already knows about ```readData.R``` we can combine the add and the commit steps:
 
-```{r engine='bash', eval = FALSE}
+
+```bash
 git commit -am "Add Code to Ingest the Raw Data"
 ```
 
@@ -125,7 +134,8 @@ Note that this can only be done for files that have _already_ been added.
 
 Let's go ahead and add **all** of the remaining untracked files and commit them:
 
-```{r, commitAll, engine='bash', eval = FALSE}
+
+```bash
 git add .
 git commit -m "Add Remaining Blank R Files"
 git status
