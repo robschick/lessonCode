@@ -39,7 +39,7 @@ git add .
 git commit -m "Add Two Files for Experimenting with Moving and Deleting"
 ```
 
-With these setup and added, let's delete it at the command line just to see what happens:
+With these setup and added, let's delete it at the command line just to see what happens. So what we're doing is deleting it using the operating system (OS), not using git:
 
 ```{r removeOS, engine='bash', eval = FALSE}
 rm src/prediction.R
@@ -66,13 +66,13 @@ git status
 
 Now we're back to a clean working directory. 
 
-Instead of removing the file with ```rm```, let's use ```git``` to do this. Note that when you use ```git``` to do this, you'll see the status looks very different. Using ```rm``` makes a change (the deletion) that hasn't been staged, where as the second (```git rm```) makes a change that is staged and ready to be committed:
+Instead of removing the file with ```rm```, let's use ```git``` to do this. Note that when you use ```git``` to do this, you'll see the status looks very different. Using ```rm``` at the level of the OS, makes a change (the deletion) that hasn't been staged, where as the second (```git rm```) makes a change that is staged and ready to be committed:
 
 ![](images/gitrm.png)
 
 Basically to get a clean working directory if you go the ```rm``` route, you have to **add** the file to the staging area, only to then commit it. ```git rm``` just does that for you in one step. 
 
-Now that that is clear, it is a good time to commit the deletion.
+Now that that is clear (right?), it is a good time to commit the deletion.
 
 ```{r engine='bash', eval=FALSE}
 git commit -m "Delete prediction.R File"
