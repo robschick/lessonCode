@@ -1,0 +1,55 @@
+---
+title: "Lesson 4 - Working Remotely"
+output: 
+  html_document:
+    keep_md: TRUE
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Part 1 - Connecting to GitHub
+We're almost done - phew! 
+
+We've covered a lot of ground, but there's still another important lesson, and that is embracing what some people call the 4th state of git - the remote repository. There are many ways to make the connections between your computer and GitHub. Sometimes they all seem sort of similar but different in frustrating ways, i.e. you might think you are following a work-flow that worked for you only to run into some weird unexplained git error.
+
+Important note here - git is huge and can be frustrating - but since it's huge and since it was developed by an uber-nerdy crowd, there are a lot of resources out there. My first thing to do if I see an error I don't understand, is to type it into ~~google~~ duckduckgo, and start browsing the answers on StackOverflow. At current count, there are [117,721 questions](https://stackoverflow.com/questions/tagged/git) tagged with ```git``` on stack overflow. Chances are, the answer is out there!
+
+(Fun fact, when I taught this last May, there were 110,650 questions. That's about 900 new per month.)
+
+At any rate, one good workflow to make a connection between a local repo and GitHub is as follows. 
+
+
+
+Once you click on Create Repository, GitHub gives you this _really_ helpful page:
+
+![](images/repoClone.png)
+In our case, we're going to push the existing repo *from* the command line (note that of course your url will be different):
+
+```{r addRemote, engine='bash', eval=FALSE}
+git remote add origin https://github.com/robschick/my_repo.git
+```
+
+Once we've added it, let's look again to see if we are talking to github:
+
+```{r checkRemote, engine='bash', eval=FALSE}
+git remote -v
+```
+
+I see this now (note that I used SSH, yours will look a bit different since you used html):
+
+![](images/remote2.png)
+
+
+With it added, then let's push our changes
+```{r checkRemote2, engine='bash', eval=FALSE}
+git push -u origin master
+```
+
+And finally we can see them on GitHub to make sure all is right.
+
+![](images/pushGitHub.png)
+
+Ok - back to the Lecture
+
