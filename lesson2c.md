@@ -30,18 +30,23 @@ Once the repo is clean, run this R code:
 
 
 ```bash
-R CMD BATCH --vanilla src/myPlot.R
+R CMD BATCH --vanilla src/plot_data.R
 ```
 
 And what happens? Path dependencies...most likely only for the Windows users.
 
 ![](images/path_depend.png)
   
-Which is annoying, but fixable by adding the environment variables and restarting git bash. When you issue it after adding the path, and then type ```ls```, you'll see the pdf listed:
+Which is annoying, but fixable by adding the environment variables and restarting git bash. 
+
+When you issue it after adding the path, and then type ```ls```, you'll see the pdf listed:
 
 ![](images/cool_plot.png)
 
-Type ```git status``` to see what ```git``` makes of the new file:
+
+> Nota bene -- if you don't want to mess around with the path variables, I've also added a pdf to the box link - ```gm175.pdf``` You can just add this file to the repository manually
+
+So whether you made it from R, or manually added it in, type ```git status``` to see what ```git``` makes of the new file (nb that the pdf file name may be different):
 
 ![](images/plot_git_status.png)
 
