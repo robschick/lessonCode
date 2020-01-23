@@ -35,7 +35,7 @@ Here are a few additional things to try and experiment with:
 ## Mini-Analysis
 Since you have the data, and shells of scripts, spend some time making a mini-analysis (very mini!). We're going to use a script that I wrote for you, and I'm going to have you re-factor it to make a complete "analysis." 
 
-The script is called ```prepareDUMLData.R```, and it is in the Box link I sent; download and open it up in RStudio.
+The script is called ```prepareDUMLData.R```, and it is in [this Box link](http://bit.ly/R-Code); download and open it up in RStudio.
 
 The idea behind this exercise comes from from a workshop I took at RStudio::conf in 2019 - taught by Jenny Bryan of RStudio. She put up this table as a way to think about organizing your data:
 
@@ -43,7 +43,7 @@ The idea behind this exercise comes from from a workshop I took at RStudio::conf
 
 
 
-So, using this table and the ```prepareDUMLData.R``` script, refactor the code in this script to 4 different R scripts, using the shell scripts that you already have from Lesson 1:
+So, using this table and the contents of the  ```prepareDUMLData.R``` script, refactor the code into 4 different R scripts, using the shell scripts that you already have from Lesson 1:
 
 1. Put reading code in ```read_data.R``` 
 2. Put wrangling code in ```wrangle_data.R``` 
@@ -53,6 +53,8 @@ So, using this table and the ```prepareDUMLData.R``` script, refactor the code i
 And use version control for it all as you go. Once you are finished, place all of the scripts into 1 controller file - the ```runAll.R``` file from Lesson 1.
 
 When you are done, commit the changes.
+
+> n.b. at the top of ```prepareDUMLData.R``` I load several libraries. You'll need these on your machine to get this code to run successfully.
 
 Back to the lecture.
 
