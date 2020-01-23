@@ -29,10 +29,17 @@ Save the file and head back to the terminal. Now we have to check the status (of
 
 Once the repo is clean, run this R code:
 
+<<<<<<< HEAD
 Windows (note that your path may change slightly based on your install and version of R; don't despair if it doesn't work - there's a workaround below):
 
 ```{r, eval=FALSE, engine='bash'}
 /C/Program\ Files/R/R-3.6.2/bin/R.exe CMD BATCH --vanilla src/plot_data.R
+=======
+Windows:
+
+```{r, eval=FALSE, engine='bash'}
+/C/Program\ Files/R/R.exe CMD BATCH --vanila src/plot_data.R
+>>>>>>> 909b47f5f7a3ec0091485ef581e40861fbcad1a2
 ```
 
 Mac:
