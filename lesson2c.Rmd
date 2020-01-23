@@ -30,7 +30,7 @@ Save the file and head back to the terminal. Now we have to check the status (of
 Once the repo is clean, run this R code:
 
 ```{r, eval=FALSE, engine='bash'}
-R CMD BATCH --vanilla src/myPlot.R
+R CMD BATCH --vanilla src/plot_data.R
 ```
 
 And what happens? Path dependencies...most likely only for the Windows users.
