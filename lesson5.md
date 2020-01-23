@@ -5,9 +5,7 @@ output:
     keep_md: TRUE
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+
 
 # Browsable Repos
 Ok, this is a small, but helpful little tweak to make your code look a bit nicer on GitHub. The idea is that when you use an .Rmd file, the output is html, which GutHub doesn't nicely render. So instead we'll change our yaml to include the intermediate markdown.
