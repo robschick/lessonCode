@@ -77,7 +77,7 @@ touch src/run_analysis.R
 And a script for the libraries we'll load:
 
 ```{r ctrl, engine='bash', eval=FALSE}
-touch src/libraries.R
+touch src/load_libraries.R
 ```
 
 And then we'll make a controller script, since that will be useful.

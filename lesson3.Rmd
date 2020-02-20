@@ -35,7 +35,7 @@ Here are a few additional things to try and experiment with:
 ## Mini-Analysis
 Since you have the data, and shells of scripts, spend some time making a mini-analysis (very mini!). We're going to use a script that I wrote for you, and I'm going to have you re-factor it to make a complete "analysis." 
 
-The script is called ```prepareDUMLData.R```, and it is in [this Box link](http://bit.ly/R-Code); download and open it up in RStudio.
+The script is called ```prepareDUMLData.R```, and it is in [this Box link](https://duke.box.com/v/duml-data); download and open it up in RStudio.
 
 The idea behind this exercise comes from from a workshop I took at RStudio::conf in 2019 - taught by Jenny Bryan of RStudio. She put up this table as a way to think about organizing your data:
 
@@ -54,7 +54,9 @@ And use version control for it all as you go. Once you are finished, place all o
 
 When you are done, commit the changes.
 
-> n.b. at the top of ```prepareDUMLData.R``` I load several libraries. You'll need these on your machine to get this code to run successfully.
+> n.b. at the top of ```prepareDUMLData.R``` I load several libraries. You'll need these on your machine to get this code to run successfully. Recall from the first lesson that we made a script called `load_libraries.R` use that to call the libraries, and put it _before_ the scripts to run the code.
+
+Ok - test the `run_all.R` script to see if it works. You now have a very useful structure to run an analysis with file nemas that should be obvious to your future self and to your collaborators.
 
 Back to the lecture.
 
