@@ -113,7 +113,7 @@ git status
 
 What do you see, and why is it different from what you issued git status a few lines back? 
 
-What do you do next if you want to make a snapshot (commit) of the updated file? Add it and commit it, but this time we can do what is called an express commit. Because git already knows about ```readData.R``` we can combine the add and the commit steps:
+What do you do next if you want to make a snapshot (commit) of the updated file? Add it and commit it, but this time we can do what is called an express commit. Because git already knows about ```read_data.R``` we can combine the add and the commit steps:
 
 ```{r engine='bash', eval = FALSE}
 git commit -am "Add Code to Ingest the Raw Data"

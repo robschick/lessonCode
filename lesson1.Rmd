@@ -74,12 +74,18 @@ touch src/plot_data.R
 touch src/run_analysis.R
 ```
 
+And a script for the libraries we'll load:
+
+```{r ctrl, engine='bash', eval=FALSE}
+touch src/libraries.R
+```
+
 And then we'll make a controller script, since that will be useful.
+
 
 ```{r ctrl, engine='bash', eval=FALSE}
 touch src/runAll.R
 ```
-
 
 That will make the files, but they're going to be empty just now.
 
