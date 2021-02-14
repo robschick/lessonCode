@@ -63,7 +63,7 @@ How can we easily see what changed between two commits? We may see that one line
 git diff 04694c0 d57964e
 ```
 
-Note that the order matters. The code above says show me what changed as the repo moved from ```9efbc59``` to ```48f84c5``` Here's what mine looked like:
+Note that the order matters. The code above says show me what changed as the repo moved from ```04694c0``` to ```d57964e``` Here's what mine looked like:
 
 
 ![](images/gitDiff.png)
